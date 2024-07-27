@@ -609,6 +609,24 @@
 				)
 			)
 			(pin passive line
+				(at 13.97 17.78 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "25"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
 				(at -11.43 15.24 0)
 				(length 2.54)
 				(name "D2-"
@@ -759,7 +777,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0.254 4.572 0)
+			(at -4.826 8.636 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -767,7 +785,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 0 0 0)
+			(at -5.08 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -775,7 +793,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 0 0 0)
+			(at -5.08 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -784,7 +802,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at -5.08 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -793,7 +811,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at -5.08 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -803,8 +821,8 @@
 		)
 		(symbol "apple_tv_tos_link_0_1"
 			(rectangle
-				(start -2.54 1.27)
-				(end 5.08 -8.89)
+				(start -7.62 6.35)
+				(end 6.35 -8.89)
 				(stroke
 					(width 0)
 					(type default)
@@ -816,7 +834,7 @@
 		)
 		(symbol "apple_tv_tos_link_1_1"
 			(pin input line
-				(at -2.54 -7.62 0)
+				(at -7.62 -7.62 0)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -825,7 +843,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -834,7 +852,7 @@
 				)
 			)
 			(pin input line
-				(at -2.54 -3.81 0)
+				(at -7.62 -3.81 0)
 				(length 2.54)
 				(name "VCC"
 					(effects
@@ -843,7 +861,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -852,7 +870,7 @@
 				)
 			)
 			(pin input line
-				(at -2.54 0 0)
+				(at -7.62 0 0)
 				(length 2.54)
 				(name "VIN"
 					(effects
@@ -861,7 +879,25 @@
 						)
 					)
 				)
-				(number ""
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -7.62 3.81 0)
+				(length 2.54)
+				(name "Case_GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
