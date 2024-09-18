@@ -68,8 +68,8 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -7.5 0)
-		(end 7.5 0)
+		(start -7.5 0.5)
+		(end 7.5 0.5)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -202,6 +202,39 @@
 	(dimension
 		(type aligned)
 		(layer "User.1")
+		(uuid "891e2002-a062-4042-ad78-3d7350869ff4")
+		(pts
+			(xy 9 -4) (xy 9 -3)
+		)
+		(height 2)
+		(gr_text "1.0000 mm"
+			(at 5.85 -3.5 90)
+			(layer "User.1")
+			(uuid "891e2002-a062-4042-ad78-3d7350869ff4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(dimension
+		(type aligned)
+		(layer "User.1")
 		(uuid "a2b0cc76-a8d4-4b46-a256-db17374cb313")
 		(pts
 			(xy -7.5 0) (xy -7.4 -16)
@@ -299,14 +332,14 @@
 			(extension_offset 0.5) keep_text_aligned)
 	)
 	(pad "" np_thru_hole oval
-		(at -5.6 4.9)
+		(at -5.8 4.9)
 		(size 2.2 1.8)
 		(drill oval 2.2 1.8)
 		(layers "F&B.Cu" "*.Mask")
 		(uuid "16342936-5c5a-410c-b5b9-72af333fb1ff")
 	)
 	(pad "" np_thru_hole oval
-		(at 5.6 4.9)
+		(at 5.8 4.9)
 		(size 2.2 1.8)
 		(drill oval 2.2 1.8)
 		(layers "F&B.Cu" "*.Mask")
@@ -401,7 +434,7 @@
 		(uuid "6a5e4850-e8fe-43fe-981b-a9281d2c36e3")
 	)
 	(pad "9" thru_hole oval
-		(at 9 -4 90)
+		(at 9 -5 90)
 		(size 2 1.2)
 		(drill oval 1.8 1)
 		(layers "*.Cu" "*.Mask")
