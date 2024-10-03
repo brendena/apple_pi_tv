@@ -68,24 +68,24 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -7.5 0.5)
-		(end 7.5 0.5)
+		(start -7.5 -0.3)
+		(end 7.5 -0.3)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
-		(layer "Margin")
+		(layer "User.9")
 		(uuid "9165118a-b024-4d48-845b-e90544098340")
 	)
 	(fp_rect
-		(start -7.5 -16)
+		(start -7.5 -15.5)
 		(end 7.5 7)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(fill none)
-		(layer "Margin")
+		(layer "User.9")
 		(uuid "14bae4ef-31ec-4233-b1a6-06d069121eaa")
 	)
 	(fp_text user "${REFERENCE}"
@@ -237,11 +237,11 @@
 		(layer "User.1")
 		(uuid "a2b0cc76-a8d4-4b46-a256-db17374cb313")
 		(pts
-			(xy -7.5 0) (xy -7.4 -16)
+			(xy -7.5 0) (xy -7.5 -15.3)
 		)
 		(height -6)
-		(gr_text "16.0003 mm"
-			(at -14.599861 -8.044686 89.64190604)
+		(gr_text "15.3000 mm"
+			(at -14.65 -7.65 90)
 			(layer "User.1")
 			(uuid "a2b0cc76-a8d4-4b46-a256-db17374cb313")
 			(effects
