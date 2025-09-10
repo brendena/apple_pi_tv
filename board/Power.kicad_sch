@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "2835462f-76ea-47fd-80aa-e5a3c17e5f08")
 	(paper "A4")
 	(lib_symbols
@@ -208,63 +208,8 @@
 			)
 			(symbol "5-1775444-8_0_0"
 				(rectangle
-					(start -3.175 -7.9375)
-					(end -1.5875 -7.3025)
-					(stroke
-						(width 0.1)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -3.175 -5.3975)
-					(end -1.5875 -4.7625)
-					(stroke
-						(width 0.1)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -3.175 -2.8575)
-					(end -1.5875 -2.2225)
-					(stroke
-						(width 0.1)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -3.175 -0.3175)
-					(end -1.5875 0.3175)
-					(stroke
-						(width 0.1)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -3.175 2.2225)
-					(end -1.5875 2.8575)
-					(stroke
-						(width 0.1)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -3.175 4.7625)
-					(end -1.5875 5.3975)
+					(start -3.175 9.8425)
+					(end -1.5875 10.4775)
 					(stroke
 						(width 0.1)
 						(type default)
@@ -285,8 +230,63 @@
 					)
 				)
 				(rectangle
-					(start -3.175 9.8425)
-					(end -1.5875 10.4775)
+					(start -3.175 4.7625)
+					(end -1.5875 5.3975)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -3.175 2.2225)
+					(end -1.5875 2.8575)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -3.175 -0.3175)
+					(end -1.5875 0.3175)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -3.175 -2.8575)
+					(end -1.5875 -2.2225)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -3.175 -5.3975)
+					(end -1.5875 -4.7625)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -3.175 -7.9375)
+					(end -1.5875 -7.3025)
 					(stroke
 						(width 0.1)
 						(type default)
@@ -455,11 +455,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:C_Small"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -529,10 +534,10 @@
 			(symbol "C_Small_0_1"
 				(polyline
 					(pts
-						(xy -1.524 -0.508) (xy 1.524 -0.508)
+						(xy -1.524 0.508) (xy 1.524 0.508)
 					)
 					(stroke
-						(width 0.3302)
+						(width 0.3048)
 						(type default)
 					)
 					(fill
@@ -541,10 +546,10 @@
 				)
 				(polyline
 					(pts
-						(xy -1.524 0.508) (xy 1.524 0.508)
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
 					)
 					(stroke
-						(width 0.3048)
+						(width 0.3302)
 						(type default)
 					)
 					(fill
@@ -590,11 +595,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:L_Small"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -663,32 +673,8 @@
 			)
 			(symbol "L_Small_0_1"
 				(arc
-					(start 0 -2.032)
-					(mid 0.5058 -1.524)
-					(end 0 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -1.016)
-					(mid 0.5058 -0.508)
-					(end 0 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0)
-					(mid 0.5058 0.508)
+					(start 0 2.032)
+					(mid 0.5058 1.524)
 					(end 0 1.016)
 					(stroke
 						(width 0)
@@ -700,8 +686,32 @@
 				)
 				(arc
 					(start 0 1.016)
-					(mid 0.5058 1.524)
-					(end 0 2.032)
+					(mid 0.5058 0.508)
+					(end 0 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 0.5058 -0.508)
+					(end 0 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -1.016)
+					(mid 0.5058 -1.524)
+					(end 0 -2.032)
 					(stroke
 						(width 0)
 						(type default)
@@ -749,11 +759,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R_Small_US"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -823,7 +838,7 @@
 			(symbol "R_Small_US_1_1"
 				(polyline
 					(pts
-						(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
+						(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
 					)
 					(stroke
 						(width 0)
@@ -835,7 +850,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
+						(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
 					)
 					(stroke
 						(width 0)
@@ -882,6 +897,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Regulator_Switching:TPS61230DRC"
 			(exclude_from_sim no)
@@ -964,24 +980,6 @@
 				)
 			)
 			(symbol "TPS61230DRC_1_1"
-				(pin power_out line
-					(at 10.16 5.08 180)
-					(length 2.54)
-					(name "SW"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin power_in line
 					(at -10.16 5.08 0)
 					(length 2.54)
@@ -993,6 +991,60 @@
 						)
 					)
 					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "HYS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -5.08 0)
+					(length 2.54)
+					(name "SS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1018,9 +1070,28 @@
 						)
 					)
 				)
+				(pin power_out line
+					(at 10.16 5.08 180)
+					(length 2.54)
+					(name "SW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin passive line
 					(at 10.16 5.08 180)
-					(length 2.54) hide
+					(length 2.54)
+					(hide yes)
 					(name "SW"
 						(effects
 							(font
@@ -1056,7 +1127,8 @@
 				)
 				(pin passive line
 					(at 10.16 2.54 180)
-					(length 2.54) hide
+					(length 2.54)
+					(hide yes)
 					(name "VOUT"
 						(effects
 							(font
@@ -1065,42 +1137,6 @@
 						)
 					)
 					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 10.16 -5.08 180)
-					(length 2.54)
-					(name "PG"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 -5.08 0)
-					(length 2.54)
-					(name "SS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1127,34 +1163,16 @@
 					)
 				)
 				(pin output line
-					(at -10.16 0 0)
+					(at 10.16 -5.08 180)
 					(length 2.54)
-					(name "HYS"
+					(name "PG"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 2.54 0)
-					(length 2.54)
-					(name "EN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1163,6 +1181,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "WIreless_Receiver_with_QI_Charging-rescue:GND-power"
 			(power)
@@ -1233,7 +1252,8 @@
 			(symbol "GND-power_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "GND"
 						(effects
 							(font
@@ -1250,12 +1270,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+5V"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1327,7 +1352,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -1339,7 +1364,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -1370,19 +1395,21 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 	)
-	(junction
-		(at 181.61 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "064682f5-aa68-44c4-b0ba-d4147d891f9a")
-	)
-	(junction
-		(at 175.26 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "086c67cc-169b-4667-a46e-9d1208bd638c")
+	(text "5V BOOST "
+		(exclude_from_sim no)
+		(at 143.51 82.55 0)
+		(effects
+			(font
+				(size 1.4986 1.4986)
+				(thickness 0.2997)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "d770f37e-0211-48dc-ac3a-a78752a33f2b")
 	)
 	(junction
 		(at 190.5 96.52)
@@ -1421,16 +1448,16 @@
 		(uuid "331175d5-98f5-456e-808b-0c078caa9015")
 	)
 	(junction
-		(at 88.9 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "35adf148-432b-41cc-aafb-60dd2574a2ff")
-	)
-	(junction
 		(at 88.9 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "48a5b586-3f7d-47d0-b7ae-9805d1d4e0b8")
+	)
+	(junction
+		(at 132.08 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5021dbbe-4ca2-4e2e-a3de-2475c14b1a66")
 	)
 	(junction
 		(at 88.9 92.71)
@@ -1451,28 +1478,34 @@
 		(uuid "6d2d2c54-0bbd-42a9-a54c-5a41209ff244")
 	)
 	(junction
-		(at 132.08 92.71)
+		(at 132.08 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b2c9b513-6071-436d-a953-b2697a50505e")
+		(uuid "a420d7be-7467-422b-868c-3ec226275495")
 	)
 	(junction
-		(at 190.5 105.41)
+		(at 127 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d67d7ff5-ee11-4a74-9dca-eb34ac834156")
+		(uuid "a5ca058c-0e51-4965-822d-ac7796116c54")
 	)
 	(junction
-		(at 194.31 105.41)
+		(at 181.61 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e680a17a-cb0b-4364-922c-e8c289e95f61")
+		(uuid "a5e74af3-9c07-41db-9ef8-bc93b1e1c72c")
 	)
 	(junction
-		(at 175.26 96.52)
+		(at 127 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "faac9c03-2e9b-4e71-8dae-852b3e16e7a9")
+		(uuid "fa428ae9-39a3-406a-9cdb-e9ace4f014d1")
+	)
+	(junction
+		(at 121.92 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fb84765a-366c-47a2-854d-26425eb80fea")
 	)
 	(no_connect
 		(at 146.05 99.06)
@@ -1487,16 +1520,6 @@
 			(type default)
 		)
 		(uuid "00620987-5e36-401b-adf1-7ad505807e0b")
-	)
-	(wire
-		(pts
-			(xy 175.26 96.52) (xy 181.61 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0125c070-8740-4ba5-b9e9-f1a1a9097f73")
 	)
 	(wire
 		(pts
@@ -1530,17 +1553,27 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 96.52) (xy 181.61 97.79)
+			(xy 127 92.71) (xy 127 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0e541535-670a-4ebc-b31e-2161f4bdb0aa")
+		(uuid "167059a4-8048-4276-aea2-8f20da05df8c")
 	)
 	(wire
 		(pts
-			(xy 166.37 96.52) (xy 175.26 96.52)
+			(xy 127 100.33) (xy 132.08 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18e6c06a-ee37-4ffe-a589-c89ff0c5b4d2")
+	)
+	(wire
+		(pts
+			(xy 166.37 96.52) (xy 181.61 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1580,16 +1613,6 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 104.14) (xy 175.26 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f3310ba-2fc9-4e9b-a769-aa6cfb80d7cc")
-	)
-	(wire
-		(pts
 			(xy 77.47 102.87) (xy 88.9 102.87)
 		)
 		(stroke
@@ -1600,13 +1623,13 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 96.52) (xy 186.69 96.52)
+			(xy 121.92 92.71) (xy 127 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "35be81a6-ac58-43d7-8a04-f257fe9104fa")
+		(uuid "3a31de8e-31b1-4106-81e6-fc909bd8c979")
 	)
 	(wire
 		(pts
@@ -1637,16 +1660,6 @@
 			(type default)
 		)
 		(uuid "44b491f8-cd98-4eeb-a60f-f532fa1b5fc6")
-	)
-	(wire
-		(pts
-			(xy 190.5 105.41) (xy 190.5 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4733ba8d-3831-45c6-9b21-23ee0db04b8a")
 	)
 	(wire
 		(pts
@@ -1720,36 +1733,6 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 104.14) (xy 175.26 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "628c2fb5-6369-431b-a364-9725c123e269")
-	)
-	(wire
-		(pts
-			(xy 175.26 96.52) (xy 175.26 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "67dcf023-9eee-4915-94a6-6caa785246b5")
-	)
-	(wire
-		(pts
-			(xy 194.31 102.87) (xy 194.31 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c7b3b0e-f6a9-42bf-befc-4f35ca2d44ea")
-	)
-	(wire
-		(pts
 			(xy 168.91 93.98) (xy 166.37 93.98)
 		)
 		(stroke
@@ -1757,16 +1740,6 @@
 			(type default)
 		)
 		(uuid "6d7391ba-f380-4dc9-8cd0-f5453fcbe117")
-	)
-	(wire
-		(pts
-			(xy 132.08 92.71) (xy 132.08 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d741c9b-daaf-4d8d-aac2-0dc59dda2cad")
 	)
 	(wire
 		(pts
@@ -1810,16 +1783,6 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 90.17) (xy 132.08 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "84079b33-8476-49d7-9120-461324e1753b")
-	)
-	(wire
-		(pts
 			(xy 77.47 105.41) (xy 88.9 105.41)
 		)
 		(stroke
@@ -1840,6 +1803,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 92.71) (xy 121.92 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9902d435-6b8f-4476-8adf-c2c4fea92ac6")
+	)
+	(wire
+		(pts
 			(xy 132.08 100.33) (xy 132.08 114.3)
 		)
 		(stroke
@@ -1847,16 +1820,6 @@
 			(type default)
 		)
 		(uuid "9951b269-f022-4ade-b077-f5537aea0b18")
-	)
-	(wire
-		(pts
-			(xy 175.26 110.49) (xy 175.26 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c0f2411-ba11-4954-af06-08063560da5b")
 	)
 	(wire
 		(pts
@@ -1870,13 +1833,33 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 99.06) (xy 171.45 99.06)
+			(xy 181.61 96.52) (xy 186.69 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a33b29c5-d262-4a8d-9603-9e4cbd0ff4f4")
+	)
+	(wire
+		(pts
+			(xy 166.37 99.06) (xy 181.61 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "aa918ebd-2ff8-40e0-ac15-bdfab390e8e5")
+	)
+	(wire
+		(pts
+			(xy 127 92.71) (xy 132.08 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abebdc3d-79a0-4b20-9783-5feebcb3a303")
 	)
 	(wire
 		(pts
@@ -1900,16 +1883,6 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 99.06) (xy 171.45 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b840a2e9-738c-48c4-80a5-f24ac863ba08")
-	)
-	(wire
-		(pts
 			(xy 138.43 93.98) (xy 143.51 93.98)
 		)
 		(stroke
@@ -1920,16 +1893,6 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 104.14) (xy 175.26 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c7dc1c9d-f30c-4b90-9ea1-fa063fb68a54")
-	)
-	(wire
-		(pts
 			(xy 198.12 96.52) (xy 198.12 97.79)
 		)
 		(stroke
@@ -1937,6 +1900,26 @@
 			(type default)
 		)
 		(uuid "d1b45b77-ed3e-4dde-8050-43f0211292bc")
+	)
+	(wire
+		(pts
+			(xy 132.08 92.71) (xy 138.43 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2487289-83e5-4234-b2b3-5f7b8927b373")
+	)
+	(wire
+		(pts
+			(xy 181.61 99.06) (xy 181.61 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d26a3d10-234d-48c1-a09d-2109c156d664")
 	)
 	(wire
 		(pts
@@ -1957,6 +1940,16 @@
 			(type default)
 		)
 		(uuid "d437664b-1831-4791-8e4d-5da45f3da825")
+	)
+	(wire
+		(pts
+			(xy 88.9 92.71) (xy 121.92 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d84ba276-5eec-4a2c-9f70-3a17cfc02d2c")
 	)
 	(wire
 		(pts
@@ -2000,26 +1993,6 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 102.87) (xy 181.61 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e4ca9474-a665-412f-8d5a-60cedbba2e3b")
-	)
-	(wire
-		(pts
-			(xy 132.08 92.71) (xy 138.43 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e6171af4-283d-497a-9864-3cd8ce143454")
-	)
-	(wire
-		(pts
 			(xy 168.91 111.76) (xy 168.91 113.03)
 		)
 		(stroke
@@ -2030,7 +2003,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 102.87) (xy 190.5 105.41)
+			(xy 190.5 102.87) (xy 190.5 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2050,16 +2023,6 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 105.41) (xy 194.31 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ebd2ea63-8140-481b-8e5a-f47508452857")
-	)
-	(wire
-		(pts
 			(xy 77.47 95.25) (xy 88.9 95.25)
 		)
 		(stroke
@@ -2070,23 +2033,13 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 105.41) (xy 198.12 105.41)
+			(xy 121.92 100.33) (xy 127 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f3335731-8fdb-4be5-b0e4-a38bf2a492b8")
-	)
-	(wire
-		(pts
-			(xy 175.26 102.87) (xy 175.26 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f4872974-6c60-450c-a554-c1e2aa4702b4")
+		(uuid "f306b8de-86bf-4c8d-b20e-86ec981955da")
 	)
 	(wire
 		(pts
@@ -2110,16 +2063,6 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 105.41) (xy 198.12 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd29b6e2-02a2-449e-a34d-f633c05663f6")
-	)
-	(wire
-		(pts
 			(xy 143.51 86.36) (xy 151.13 86.36)
 		)
 		(stroke
@@ -2128,22 +2071,8 @@
 		)
 		(uuid "fe8d2c1f-4874-42a3-992a-23019768eb03")
 	)
-	(text "5V BOOST "
-		(exclude_from_sim no)
-		(at 143.51 82.55 0)
-		(effects
-			(font
-				(size 1.4986 1.4986)
-				(thickness 0.2997)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "d770f37e-0211-48dc-ac3a-a78752a33f2b")
-	)
 	(label "power in"
 		(at 111.76 90.17 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 0.7112 0.7112)
@@ -2170,7 +2099,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22u"
+		(property "Value" "10u"
 			(at 132.08 99.06 0)
 			(effects
 				(font
@@ -2329,7 +2258,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1uH"
+		(property "Value" "18.1uH"
 			(at 153.67 85.09 90)
 			(effects
 				(font
@@ -2601,483 +2530,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 198.12 100.33 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2c266901-487a-4077-9bdf-9d9af9f0ea5b")
-		(property "Reference" "C13"
-			(at 198.12 99.06 0)
-			(effects
-				(font
-					(size 0.7874 0.7874)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22u"
-			(at 198.12 101.6 0)
-			(effects
-				(font
-					(size 0.7874 0.7874)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 198.12 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 198.12 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 198.12 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 198.12 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 198.12 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 198.12 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 198.12 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" ""
-			(at 198.12 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 198.12 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 198.12 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 198.12 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SNAPEDA_PN" ""
-			(at 198.12 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR#" "GRM158R61A226ME15D"
-			(at 198.12 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c457364d-77f1-482b-b760-da5a1608e8d0")
-		)
-		(pin "2"
-			(uuid "ef9e510d-dc4e-404d-83b6-5a186ee4b49f")
-		)
-		(instances
-			(project "apple_pi_tv_board"
-				(path "/391fcf0b-b604-4ad0-921e-8f3dad9a49eb/74fd2a8f-8c47-435d-b882-0da22827ae94"
-					(reference "C13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 181.61 100.33 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2d586367-a211-45bc-a318-cae1847576d4")
-		(property "Reference" "C9"
-			(at 181.61 99.06 0)
-			(effects
-				(font
-					(size 0.7874 0.7874)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "18p"
-			(at 181.61 101.6 0)
-			(effects
-				(font
-					(size 0.7874 0.7874)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 181.61 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 181.61 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 181.61 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 181.61 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 181.61 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 181.61 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 181.61 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" ""
-			(at 181.61 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 181.61 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 181.61 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 181.61 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SNAPEDA_PN" ""
-			(at 181.61 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR#" ""
-			(at 181.61 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ccc24066-3669-40d2-b290-914b1395d2e5")
-		)
-		(pin "2"
-			(uuid "9396d977-0ed2-4149-bc45-51f6499dbcfa")
-		)
-		(instances
-			(project "apple_pi_tv_board"
-				(path "/391fcf0b-b604-4ad0-921e-8f3dad9a49eb/74fd2a8f-8c47-435d-b882-0da22827ae94"
-					(reference "C9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 194.31 100.33 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3fa425fd-ef88-4b09-8c3e-248737f87a2f")
-		(property "Reference" "C2"
-			(at 194.31 99.06 0)
-			(effects
-				(font
-					(size 0.7874 0.7874)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22u"
-			(at 194.31 101.6 0)
-			(effects
-				(font
-					(size 0.7874 0.7874)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 194.31 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 194.31 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 194.31 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 194.31 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 194.31 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 194.31 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 194.31 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" ""
-			(at 194.31 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 194.31 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 194.31 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 194.31 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SNAPEDA_PN" ""
-			(at 194.31 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR#" "GRM158R61A226ME15D"
-			(at 194.31 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d4c598d8-4fbc-4d00-8475-5719a7cfdbb7")
-		)
-		(pin "2"
-			(uuid "af8bdc11-de49-4600-beb2-ce21c8da4727")
-		)
-		(instances
-			(project "apple_pi_tv_board"
-				(path "/391fcf0b-b604-4ad0-921e-8f3dad9a49eb/74fd2a8f-8c47-435d-b882-0da22827ae94"
-					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Regulator_Switching:TPS61230DRC")
 		(at 156.21 99.06 0)
 		(unit 1)
@@ -3094,7 +2546,7 @@
 				)
 			)
 		)
-		(property "Value" "TPS61230DRC"
+		(property "Value" "TPS61232DRC"
 			(at 156.21 89.8906 0)
 			(effects
 				(font
@@ -3270,7 +2722,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22u"
+		(property "Value" "4.7u"
 			(at 190.5 101.6 0)
 			(effects
 				(font
@@ -3406,83 +2858,6 @@
 			(project "apple_pi_tv_board"
 				(path "/391fcf0b-b604-4ad0-921e-8f3dad9a49eb/74fd2a8f-8c47-435d-b882-0da22827ae94"
 					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 175.26 107.95 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4e220d5c-1692-4686-a762-df90fd9146c4")
-		(property "Reference" "R10"
-			(at 179.578 105.918 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100k"
-			(at 179.324 109.982 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 175.26 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 175.26 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 175.26 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR#" ""
-			(at 175.26 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "c3ac8bf0-c833-40e1-b579-174d5790604f")
-		)
-		(pin "1"
-			(uuid "d6791ad1-c6d7-4efd-af11-b847bc1af4a9")
-		)
-		(instances
-			(project "apple_pi_tv_board"
-				(path "/391fcf0b-b604-4ad0-921e-8f3dad9a49eb/74fd2a8f-8c47-435d-b882-0da22827ae94"
-					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -3636,8 +3011,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1M"
-			(at 171.196 110.998 0)
+		(property "Value" "100K"
+			(at 167.386 112.522 0)
 			(effects
 				(font
 					(size 1 1)
@@ -3690,83 +3065,6 @@
 			(project "apple_pi_tv_board"
 				(path "/391fcf0b-b604-4ad0-921e-8f3dad9a49eb/74fd2a8f-8c47-435d-b882-0da22827ae94"
 					(reference "R11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 175.26 100.33 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "86ab486d-1383-40e0-84c3-9c67988de315")
-		(property "Reference" "R9"
-			(at 178.562 98.298 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "402k"
-			(at 179.324 102.362 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 175.26 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 175.26 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 175.26 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR#" ""
-			(at 175.26 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "8c3f79aa-ead8-401b-8ab5-3de124b2b0c7")
-		)
-		(pin "1"
-			(uuid "ec38bfc6-f938-40ba-9d3d-d95e8be49dff")
-		)
-		(instances
-			(project "apple_pi_tv_board"
-				(path "/391fcf0b-b604-4ad0-921e-8f3dad9a49eb/74fd2a8f-8c47-435d-b882-0da22827ae94"
-					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -4093,7 +3391,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10n"
+		(property "Value" "8.2n"
 			(at 143.51 110.49 0)
 			(effects
 				(font
@@ -4226,33 +3524,34 @@
 		)
 	)
 	(symbol
-		(lib_id "WIreless_Receiver_with_QI_Charging-rescue:GND-power")
-		(at 175.26 114.3 0)
+		(lib_id "Device:C_Small")
+		(at 127 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "f9dba598-b630-42ce-8691-93cd8ee4b69f")
-		(property "Reference" "#PWR010"
-			(at 175.26 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 175.26 117.348 0)
+		(uuid "de265a04-7d59-491b-b829-5e8a78a112e1")
+		(property "Reference" "C9"
+			(at 127 96.52 0)
 			(effects
 				(font
 					(size 0.7874 0.7874)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 175.26 114.3 0)
+		(property "Value" "10u"
+			(at 127 99.06 0)
+			(effects
+				(font
+					(size 0.7874 0.7874)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 127 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4260,8 +3559,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 175.26 114.3 0)
+		(property "Datasheet" "~"
+			(at 127 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4270,7 +3569,97 @@
 			)
 		)
 		(property "Description" ""
-			(at 175.26 114.3 0)
+			(at 127 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 127 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 127 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 127 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 127 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 127 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 127 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 127 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 127 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 127 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR#" "GRM158R61A226ME15D"
+			(at 127 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4279,12 +3668,174 @@
 			)
 		)
 		(pin "1"
-			(uuid "a295d2c3-3ec0-4d45-848e-b5a04d14fe7e")
+			(uuid "3eaa0c89-0ea3-4de0-9016-370b87c496c7")
+		)
+		(pin "2"
+			(uuid "224dffd5-4402-4d5c-b56d-d5b3e4b17c5c")
 		)
 		(instances
 			(project "apple_pi_tv_board"
 				(path "/391fcf0b-b604-4ad0-921e-8f3dad9a49eb/74fd2a8f-8c47-435d-b882-0da22827ae94"
-					(reference "#PWR010")
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 121.92 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e641e2a3-be46-475e-a774-61c0b7c926ae")
+		(property "Reference" "C14"
+			(at 121.92 96.52 0)
+			(effects
+				(font
+					(size 0.7874 0.7874)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 121.92 99.06 0)
+			(effects
+				(font
+					(size 0.7874 0.7874)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 121.92 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 121.92 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 121.92 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 121.92 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 121.92 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 121.92 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 121.92 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 121.92 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 121.92 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 121.92 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 121.92 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 121.92 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR#" "GRM158R61A226ME15D"
+			(at 121.92 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "82e6accf-0d12-435d-988e-0280aadb0fc7")
+		)
+		(pin "2"
+			(uuid "dc21628f-1309-49e9-a8ff-3fdc1233f703")
+		)
+		(instances
+			(project "apple_pi_tv_board"
+				(path "/391fcf0b-b604-4ad0-921e-8f3dad9a49eb/74fd2a8f-8c47-435d-b882-0da22827ae94"
+					(reference "C14")
 					(unit 1)
 				)
 			)

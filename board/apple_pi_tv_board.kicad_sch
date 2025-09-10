@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "391fcf0b-b604-4ad0-921e-8f3dad9a49eb")
 	(paper "A4")
 	(lib_symbols
@@ -86,6 +86,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "pi_compute4_module_custom_pcb-rescue:RPi_4-RPi_4"
 			(pin_names
@@ -176,402 +177,6 @@
 					)
 				)
 				(pin input line
-					(at 20.32 48.26 180)
-					(length 2.54)
-					(name "ETH_PAIR0_N"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 20.32 -66.04 180)
-					(length 2.54)
-					(name "~{EXTRST}"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "100"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -20.32 45.72 0)
-					(length 2.54)
-					(name "ETH_PAIR2_P"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 20.32 45.72 180)
-					(length 2.54)
-					(name "ETH_PAIR0_P"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -20.32 43.18 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 20.32 43.18 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -20.32 40.64 0)
-					(length 2.54)
-					(name "ETH_~{LED3}"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 20.32 40.64 180)
-					(length 2.54)
-					(name "ETH_SYNC_IN"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -20.32 38.1 0)
-					(length 2.54)
-					(name "ETH_~{LED2}"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "17"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 20.32 38.1 180)
-					(length 2.54)
-					(name "ETH_SYNC_OUT"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "18"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -20.32 35.56 0)
-					(length 2.54)
-					(name "ETH_~{LED3}"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "19"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 20.32 58.42 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 20.32 35.56 180)
-					(length 2.54)
-					(name "EEPROM_~{WP}"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "20"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -20.32 33.02 0)
-					(length 2.54)
-					(name "PI_~{LED_ACTIVITY}"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "21"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 20.32 33.02 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "22"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -20.32 30.48 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "23"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 20.32 30.48 180)
-					(length 2.54)
-					(name "GPIO26"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "24"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -20.32 27.94 0)
-					(length 2.54)
-					(name "GPIO21"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "25"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 20.32 27.94 180)
-					(length 2.54)
-					(name "GPIO19"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "26"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -20.32 25.4 0)
-					(length 2.54)
-					(name "GPIO20"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "27"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 20.32 25.4 180)
-					(length 2.54)
-					(name "GPIO13"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "28"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -20.32 22.86 0)
-					(length 2.54)
-					(name "GPIO16"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "29"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
 					(at -20.32 55.88 0)
 					(length 2.54)
 					(name "ETH_PAIR3_P"
@@ -582,384 +187,6 @@
 						)
 					)
 					(number "3"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 20.32 22.86 180)
-					(length 2.54)
-					(name "GPIO6"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "30"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -20.32 20.32 0)
-					(length 2.54)
-					(name "GPIO12"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "31"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 20.32 20.32 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "32"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -20.32 17.78 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "33"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 20.32 17.78 180)
-					(length 2.54)
-					(name "GPIO5"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "34"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -20.32 15.24 0)
-					(length 2.54)
-					(name "ID_SC"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "35"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 20.32 15.24 180)
-					(length 2.54)
-					(name "ID_SD"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "36"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -20.32 12.7 0)
-					(length 2.54)
-					(name "GPIO7"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "37"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 20.32 12.7 180)
-					(length 2.54)
-					(name "GPIO11"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "38"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -20.32 10.16 0)
-					(length 2.54)
-					(name "GPIO8"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "39"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 20.32 55.88 180)
-					(length 2.54)
-					(name "ETH_PAIR1_P"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 20.32 10.16 180)
-					(length 2.54)
-					(name "GPIO9"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "40"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -20.32 7.62 0)
-					(length 2.54)
-					(name "GPIO25"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "41"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 20.32 7.62 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "42"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -20.32 5.08 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "43"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 20.32 5.08 180)
-					(length 2.54)
-					(name "GPIO10"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "44"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -20.32 2.54 0)
-					(length 2.54)
-					(name "GPIO24"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "45"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 20.32 2.54 180)
-					(length 2.54)
-					(name "GPIO22"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "46"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -20.32 0 0)
-					(length 2.54)
-					(name "GPIO23"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "47"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 20.32 0 180)
-					(length 2.54)
-					(name "GPIO27"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "48"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -20.32 -2.54 0)
-					(length 2.54)
-					(name "GPIO18"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "49"
 						(effects
 							(font
 								(size 0.9906 0.9906)
@@ -986,384 +213,6 @@
 					)
 				)
 				(pin input line
-					(at 20.32 -2.54 180)
-					(length 2.54)
-					(name "GPIO17"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "50"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -20.32 -5.08 0)
-					(length 2.54)
-					(name "GPIO15"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "51"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 20.32 -5.08 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "52"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -20.32 -7.62 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "53"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 20.32 -7.62 180)
-					(length 2.54)
-					(name "GPIO4"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "54"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -20.32 -10.16 0)
-					(length 2.54)
-					(name "GPIO14"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "55"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 20.32 -10.16 180)
-					(length 2.54)
-					(name "GPIO3"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "56"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -20.32 -12.7 0)
-					(length 2.54)
-					(name "SD_CLK"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "57"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 20.32 -12.7 180)
-					(length 2.54)
-					(name "GPIO2"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "58"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -20.32 -15.24 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "59"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 20.32 53.34 180)
-					(length 2.54)
-					(name "ETH_PAIR1_N"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 20.32 -15.24 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "60"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -20.32 -17.78 0)
-					(length 2.54)
-					(name "SD_DAT3"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "61"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 20.32 -17.78 180)
-					(length 2.54)
-					(name "SD_CMD"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "62"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -20.32 -20.32 0)
-					(length 2.54)
-					(name "SD_DAT0"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "63"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 20.32 -20.32 180)
-					(length 2.54)
-					(name "SD_DAT5"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "64"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -20.32 -22.86 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "65"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 20.32 -22.86 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "66"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -20.32 -25.4 0)
-					(length 2.54)
-					(name "SD_DAT1"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "67"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 20.32 -25.4 180)
-					(length 2.54)
-					(name "SD_DAT4"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "68"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -20.32 -27.94 0)
-					(length 2.54)
-					(name "SD_DAT2"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "69"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
 					(at -20.32 50.8 0)
 					(length 2.54)
 					(name "GND"
@@ -1374,384 +223,6 @@
 						)
 					)
 					(number "7"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 20.32 -27.94 180)
-					(length 2.54)
-					(name "SD_DAT7"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "70"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -20.32 -30.48 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "71"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 20.32 -30.48 180)
-					(length 2.54)
-					(name "SD_DAT6"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "72"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -20.32 -33.02 0)
-					(length 2.54)
-					(name "SD_VDD_OVERRIDE"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "73"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 20.32 -33.02 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "74"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -20.32 -35.56 0)
-					(length 2.54)
-					(name "SD_PWR_ON"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "75"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 20.32 -35.56 180)
-					(length 2.54)
-					(name "RESERVED"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "76"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -20.32 -38.1 0)
-					(length 2.54)
-					(name "+5V(INPUT)"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "77"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 20.32 -38.1 180)
-					(length 2.54)
-					(name "GPIO_VREF"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "78"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -20.32 -40.64 0)
-					(length 2.54)
-					(name "+5V(INPUT)"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "79"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 20.32 50.8 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 20.32 -40.64 180)
-					(length 2.54)
-					(name "SCL0"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "80"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -20.32 -43.18 0)
-					(length 2.54)
-					(name "+5V(INPUT)"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "81"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 20.32 -43.18 180)
-					(length 2.54)
-					(name "SDA0"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "82"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -20.32 -45.72 0)
-					(length 2.54)
-					(name "+5V(INPUT)"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "83"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 20.32 -45.72 180)
-					(length 2.54)
-					(name "CM4_3.3V(OUTPUT)"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "84"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -20.32 -48.26 0)
-					(length 2.54)
-					(name "+5V(INPUT)"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "85"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 20.32 -48.26 180)
-					(length 2.54)
-					(name "CM4_3.3V(OUTPUT)"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "86"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -20.32 -50.8 0)
-					(length 2.54)
-					(name "+5V(INPUT)"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "87"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 20.32 -50.8 180)
-					(length 2.54)
-					(name "CM4_1.8V(OUTPUT)"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "88"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -20.32 -53.34 0)
-					(length 2.54)
-					(name "WL_~{DISABLE}"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "89"
 						(effects
 							(font
 								(size 0.9906 0.9906)
@@ -1778,16 +249,718 @@
 					)
 				)
 				(pin input line
-					(at 20.32 -53.34 180)
+					(at -20.32 45.72 0)
 					(length 2.54)
-					(name "CM4_1.8V(OUTPUT)"
+					(name "ETH_PAIR2_P"
 						(effects
 							(font
 								(size 0.9906 0.9906)
 							)
 						)
 					)
-					(number "90"
+					(number "11"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 43.18 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 40.64 0)
+					(length 2.54)
+					(name "ETH_~{LED3}"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 38.1 0)
+					(length 2.54)
+					(name "ETH_~{LED2}"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 35.56 0)
+					(length 2.54)
+					(name "ETH_~{LED3}"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 33.02 0)
+					(length 2.54)
+					(name "PI_~{LED_ACTIVITY}"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 30.48 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 27.94 0)
+					(length 2.54)
+					(name "GPIO21"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 25.4 0)
+					(length 2.54)
+					(name "GPIO20"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 22.86 0)
+					(length 2.54)
+					(name "GPIO16"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 20.32 0)
+					(length 2.54)
+					(name "GPIO12"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 17.78 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "33"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 15.24 0)
+					(length 2.54)
+					(name "ID_SC"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "35"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 12.7 0)
+					(length 2.54)
+					(name "GPIO7"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "37"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 10.16 0)
+					(length 2.54)
+					(name "GPIO8"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "39"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 7.62 0)
+					(length 2.54)
+					(name "GPIO25"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "41"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 5.08 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "43"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 2.54 0)
+					(length 2.54)
+					(name "GPIO24"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "45"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 0 0)
+					(length 2.54)
+					(name "GPIO23"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "47"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 -2.54 0)
+					(length 2.54)
+					(name "GPIO18"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "49"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 -5.08 0)
+					(length 2.54)
+					(name "GPIO15"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "51"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 -7.62 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "53"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 -10.16 0)
+					(length 2.54)
+					(name "GPIO14"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "55"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 -12.7 0)
+					(length 2.54)
+					(name "SD_CLK"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "57"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 -15.24 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "59"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 -17.78 0)
+					(length 2.54)
+					(name "SD_DAT3"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "61"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 -20.32 0)
+					(length 2.54)
+					(name "SD_DAT0"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "63"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 -22.86 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "65"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 -25.4 0)
+					(length 2.54)
+					(name "SD_DAT1"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "67"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 -27.94 0)
+					(length 2.54)
+					(name "SD_DAT2"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "69"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 -30.48 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "71"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 -33.02 0)
+					(length 2.54)
+					(name "SD_VDD_OVERRIDE"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "73"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 -35.56 0)
+					(length 2.54)
+					(name "SD_PWR_ON"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "75"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 -38.1 0)
+					(length 2.54)
+					(name "+5V(INPUT)"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "77"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 -40.64 0)
+					(length 2.54)
+					(name "+5V(INPUT)"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "79"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 -43.18 0)
+					(length 2.54)
+					(name "+5V(INPUT)"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "81"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 -45.72 0)
+					(length 2.54)
+					(name "+5V(INPUT)"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "83"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 -48.26 0)
+					(length 2.54)
+					(name "+5V(INPUT)"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "85"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 -50.8 0)
+					(length 2.54)
+					(name "+5V(INPUT)"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "87"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 -53.34 0)
+					(length 2.54)
+					(name "WL_~{DISABLE}"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "89"
 						(effects
 							(font
 								(size 0.9906 0.9906)
@@ -1814,24 +987,6 @@
 					)
 				)
 				(pin input line
-					(at 20.32 -55.88 180)
-					(length 2.54)
-					(name "RUN_PG"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "92"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
 					(at -20.32 -58.42 0)
 					(length 2.54)
 					(name "~{RPIBOOT}"
@@ -1842,24 +997,6 @@
 						)
 					)
 					(number "93"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 20.32 -58.42 180)
-					(length 2.54)
-					(name "ANALOGP1"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "94"
 						(effects
 							(font
 								(size 0.9906 0.9906)
@@ -1886,24 +1023,6 @@
 					)
 				)
 				(pin input line
-					(at 20.32 -60.96 180)
-					(length 2.54)
-					(name "ANALOGP0"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "96"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
 					(at -20.32 -63.5 0)
 					(length 2.54)
 					(name "CAMERA_GPIO"
@@ -1914,6 +1033,888 @@
 						)
 					)
 					(number "97"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 -66.04 0)
+					(length 2.54)
+					(name "GLOBAL_EN"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "99"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 20.32 58.42 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 20.32 55.88 180)
+					(length 2.54)
+					(name "ETH_PAIR1_P"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 20.32 53.34 180)
+					(length 2.54)
+					(name "ETH_PAIR1_N"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 20.32 50.8 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 20.32 48.26 180)
+					(length 2.54)
+					(name "ETH_PAIR0_N"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 20.32 45.72 180)
+					(length 2.54)
+					(name "ETH_PAIR0_P"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 20.32 43.18 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 20.32 40.64 180)
+					(length 2.54)
+					(name "ETH_SYNC_IN"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 20.32 38.1 180)
+					(length 2.54)
+					(name "ETH_SYNC_OUT"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 20.32 35.56 180)
+					(length 2.54)
+					(name "EEPROM_~{WP}"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 20.32 33.02 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 20.32 30.48 180)
+					(length 2.54)
+					(name "GPIO26"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 20.32 27.94 180)
+					(length 2.54)
+					(name "GPIO19"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 20.32 25.4 180)
+					(length 2.54)
+					(name "GPIO13"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 20.32 22.86 180)
+					(length 2.54)
+					(name "GPIO6"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 20.32 20.32 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 20.32 17.78 180)
+					(length 2.54)
+					(name "GPIO5"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "34"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 20.32 15.24 180)
+					(length 2.54)
+					(name "ID_SD"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "36"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 20.32 12.7 180)
+					(length 2.54)
+					(name "GPIO11"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "38"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 20.32 10.16 180)
+					(length 2.54)
+					(name "GPIO9"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "40"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 20.32 7.62 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "42"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 20.32 5.08 180)
+					(length 2.54)
+					(name "GPIO10"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "44"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 20.32 2.54 180)
+					(length 2.54)
+					(name "GPIO22"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "46"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 20.32 0 180)
+					(length 2.54)
+					(name "GPIO27"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "48"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 20.32 -2.54 180)
+					(length 2.54)
+					(name "GPIO17"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "50"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 20.32 -5.08 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "52"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 20.32 -7.62 180)
+					(length 2.54)
+					(name "GPIO4"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "54"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 20.32 -10.16 180)
+					(length 2.54)
+					(name "GPIO3"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "56"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 20.32 -12.7 180)
+					(length 2.54)
+					(name "GPIO2"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "58"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 20.32 -15.24 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "60"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 20.32 -17.78 180)
+					(length 2.54)
+					(name "SD_CMD"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "62"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 20.32 -20.32 180)
+					(length 2.54)
+					(name "SD_DAT5"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "64"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 20.32 -22.86 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "66"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 20.32 -25.4 180)
+					(length 2.54)
+					(name "SD_DAT4"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "68"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 20.32 -27.94 180)
+					(length 2.54)
+					(name "SD_DAT7"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "70"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 20.32 -30.48 180)
+					(length 2.54)
+					(name "SD_DAT6"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "72"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 20.32 -33.02 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "74"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 20.32 -35.56 180)
+					(length 2.54)
+					(name "RESERVED"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "76"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 20.32 -38.1 180)
+					(length 2.54)
+					(name "GPIO_VREF"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "78"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 20.32 -40.64 180)
+					(length 2.54)
+					(name "SCL0"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "80"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 20.32 -43.18 180)
+					(length 2.54)
+					(name "SDA0"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "82"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 20.32 -45.72 180)
+					(length 2.54)
+					(name "CM4_3.3V(OUTPUT)"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "84"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 20.32 -48.26 180)
+					(length 2.54)
+					(name "CM4_3.3V(OUTPUT)"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "86"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 20.32 -50.8 180)
+					(length 2.54)
+					(name "CM4_1.8V(OUTPUT)"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "88"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 20.32 -53.34 180)
+					(length 2.54)
+					(name "CM4_1.8V(OUTPUT)"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "90"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 20.32 -55.88 180)
+					(length 2.54)
+					(name "RUN_PG"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "92"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 20.32 -58.42 180)
+					(length 2.54)
+					(name "ANALOGP1"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "94"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 20.32 -60.96 180)
+					(length 2.54)
+					(name "ANALOGP0"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "96"
 						(effects
 							(font
 								(size 0.9906 0.9906)
@@ -1940,16 +1941,16 @@
 					)
 				)
 				(pin input line
-					(at -20.32 -66.04 0)
+					(at 20.32 -66.04 180)
 					(length 2.54)
-					(name "GLOBAL_EN"
+					(name "~{EXTRST}"
 						(effects
 							(font
 								(size 0.9906 0.9906)
 							)
 						)
 					)
-					(number "99"
+					(number "100"
 						(effects
 							(font
 								(size 0.9906 0.9906)
@@ -1989,24 +1990,6 @@
 					)
 				)
 				(pin input line
-					(at 20.32 55.88 180)
-					(length 2.54)
-					(name "PCIE_CLK_~{REQ}"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "102"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
 					(at -20.32 53.34 0)
 					(length 2.54)
 					(name "USB_N"
@@ -2017,24 +2000,6 @@
 						)
 					)
 					(number "103"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 20.32 53.34 180)
-					(length 2.54)
-					(name "RESERVED"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "104"
 						(effects
 							(font
 								(size 0.9906 0.9906)
@@ -2061,24 +2026,6 @@
 					)
 				)
 				(pin input line
-					(at 20.32 50.8 180)
-					(length 2.54)
-					(name "RESERVED"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "106"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
 					(at -20.32 48.26 0)
 					(length 2.54)
 					(name "GND"
@@ -2089,24 +2036,6 @@
 						)
 					)
 					(number "107"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 20.32 48.26 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "108"
 						(effects
 							(font
 								(size 0.9906 0.9906)
@@ -2133,24 +2062,6 @@
 					)
 				)
 				(pin input line
-					(at 20.32 45.72 180)
-					(length 2.54)
-					(name "PCIE_CLK_P"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "110"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
 					(at -20.32 43.18 0)
 					(length 2.54)
 					(name "VDAC_COMP"
@@ -2161,24 +2072,6 @@
 						)
 					)
 					(number "111"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 20.32 43.18 180)
-					(length 2.54)
-					(name "PCIE_CLK_N"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "112"
 						(effects
 							(font
 								(size 0.9906 0.9906)
@@ -2205,24 +2098,6 @@
 					)
 				)
 				(pin input line
-					(at 20.32 40.64 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "114"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
 					(at -20.32 38.1 0)
 					(length 2.54)
 					(name "CAM1_D0_N"
@@ -2233,24 +2108,6 @@
 						)
 					)
 					(number "115"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 20.32 38.1 180)
-					(length 2.54)
-					(name "PCIE_RX_P"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "116"
 						(effects
 							(font
 								(size 0.9906 0.9906)
@@ -2277,24 +2134,6 @@
 					)
 				)
 				(pin input line
-					(at 20.32 35.56 180)
-					(length 2.54)
-					(name "PCIE_RX_N"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "118"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
 					(at -20.32 33.02 0)
 					(length 2.54)
 					(name "GND"
@@ -2305,24 +2144,6 @@
 						)
 					)
 					(number "119"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 20.32 33.02 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "120"
 						(effects
 							(font
 								(size 0.9906 0.9906)
@@ -2349,24 +2170,6 @@
 					)
 				)
 				(pin input line
-					(at 20.32 30.48 180)
-					(length 2.54)
-					(name "PCIE_TX_P"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "122"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
 					(at -20.32 27.94 0)
 					(length 2.54)
 					(name "CAM1_D1_P"
@@ -2377,24 +2180,6 @@
 						)
 					)
 					(number "123"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 20.32 27.94 180)
-					(length 2.54)
-					(name "PCIE_TX_N"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "124"
 						(effects
 							(font
 								(size 0.9906 0.9906)
@@ -2421,24 +2206,6 @@
 					)
 				)
 				(pin input line
-					(at 20.32 25.4 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "126"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
 					(at -20.32 22.86 0)
 					(length 2.54)
 					(name "CAM1_C_N"
@@ -2449,24 +2216,6 @@
 						)
 					)
 					(number "127"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 20.32 22.86 180)
-					(length 2.54)
-					(name "CAM0_D1_N"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "128"
 						(effects
 							(font
 								(size 0.9906 0.9906)
@@ -2493,24 +2242,6 @@
 					)
 				)
 				(pin input line
-					(at 20.32 20.32 180)
-					(length 2.54)
-					(name "CAM0_D0_P"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "130"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
 					(at -20.32 17.78 0)
 					(length 2.54)
 					(name "GND"
@@ -2521,24 +2252,6 @@
 						)
 					)
 					(number "131"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 20.32 17.78 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "132"
 						(effects
 							(font
 								(size 0.9906 0.9906)
@@ -2565,24 +2278,6 @@
 					)
 				)
 				(pin input line
-					(at 20.32 15.24 180)
-					(length 2.54)
-					(name "CAM0_D1_N"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "134"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
 					(at -20.32 12.7 0)
 					(length 2.54)
 					(name "CAM1_D2_P"
@@ -2593,24 +2288,6 @@
 						)
 					)
 					(number "135"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 20.32 12.7 180)
-					(length 2.54)
-					(name "CAM0_D1_P"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "136"
 						(effects
 							(font
 								(size 0.9906 0.9906)
@@ -2637,24 +2314,6 @@
 					)
 				)
 				(pin input line
-					(at 20.32 10.16 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "138"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
 					(at -20.32 7.62 0)
 					(length 2.54)
 					(name "CAM1_D3_N"
@@ -2665,24 +2324,6 @@
 						)
 					)
 					(number "139"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 20.32 7.62 180)
-					(length 2.54)
-					(name "CAM0_C_N"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "140"
 						(effects
 							(font
 								(size 0.9906 0.9906)
@@ -2709,24 +2350,6 @@
 					)
 				)
 				(pin input line
-					(at 20.32 5.08 180)
-					(length 2.54)
-					(name "CAM0_C_P"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "142"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
 					(at -20.32 2.54 0)
 					(length 2.54)
 					(name "HDMI1_HOTPLUG"
@@ -2737,24 +2360,6 @@
 						)
 					)
 					(number "143"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 20.32 2.54 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "144"
 						(effects
 							(font
 								(size 0.9906 0.9906)
@@ -2781,24 +2386,6 @@
 					)
 				)
 				(pin input line
-					(at 20.32 0 180)
-					(length 2.54)
-					(name "HDMI1_TX2_P"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "146"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
 					(at -20.32 -2.54 0)
 					(length 2.54)
 					(name "HDMI1_SCL"
@@ -2809,24 +2396,6 @@
 						)
 					)
 					(number "147"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 20.32 -2.54 180)
-					(length 2.54)
-					(name "HDMI1_TX2_N"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "148"
 						(effects
 							(font
 								(size 0.9906 0.9906)
@@ -2853,24 +2422,6 @@
 					)
 				)
 				(pin input line
-					(at 20.32 -5.08 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "150"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
 					(at -20.32 -7.62 0)
 					(length 2.54)
 					(name "HDMI0_CEC"
@@ -2881,24 +2432,6 @@
 						)
 					)
 					(number "151"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 20.32 -7.62 180)
-					(length 2.54)
-					(name "HDMI1_TX1_P"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "152"
 						(effects
 							(font
 								(size 0.9906 0.9906)
@@ -2925,24 +2458,6 @@
 					)
 				)
 				(pin input line
-					(at 20.32 -10.16 180)
-					(length 2.54)
-					(name "HDMI1_TX1_N"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "154"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
 					(at -20.32 -12.7 0)
 					(length 2.54)
 					(name "GND"
@@ -2953,24 +2468,6 @@
 						)
 					)
 					(number "155"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 20.32 -12.7 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "156"
 						(effects
 							(font
 								(size 0.9906 0.9906)
@@ -2997,24 +2494,6 @@
 					)
 				)
 				(pin input line
-					(at 20.32 -15.24 180)
-					(length 2.54)
-					(name "HDMI1_TX0_P"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "158"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
 					(at -20.32 -17.78 0)
 					(length 2.54)
 					(name "DSI0_D0_P"
@@ -3025,24 +2504,6 @@
 						)
 					)
 					(number "159"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 20.32 -17.78 180)
-					(length 2.54)
-					(name "HDMI1_TX0_N"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "160"
 						(effects
 							(font
 								(size 0.9906 0.9906)
@@ -3069,24 +2530,6 @@
 					)
 				)
 				(pin input line
-					(at 20.32 -20.32 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "162"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
 					(at -20.32 -22.86 0)
 					(length 2.54)
 					(name "DSI0_D1_N"
@@ -3097,24 +2540,6 @@
 						)
 					)
 					(number "163"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 20.32 -22.86 180)
-					(length 2.54)
-					(name "HDMI1_CLK_P"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "164"
 						(effects
 							(font
 								(size 0.9906 0.9906)
@@ -3141,24 +2566,6 @@
 					)
 				)
 				(pin input line
-					(at 20.32 -25.4 180)
-					(length 2.54)
-					(name "HDMI1_CLK_N"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "166"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
 					(at -20.32 -27.94 0)
 					(length 2.54)
 					(name "GND"
@@ -3169,24 +2576,6 @@
 						)
 					)
 					(number "167"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 20.32 -27.94 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "168"
 						(effects
 							(font
 								(size 0.9906 0.9906)
@@ -3213,24 +2602,6 @@
 					)
 				)
 				(pin input line
-					(at 20.32 -30.48 180)
-					(length 2.54)
-					(name "HDMI0_TX2_P"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "170"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
 					(at -20.32 -33.02 0)
 					(length 2.54)
 					(name "DSI0_C_P"
@@ -3241,24 +2612,6 @@
 						)
 					)
 					(number "171"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 20.32 -33.02 180)
-					(length 2.54)
-					(name "HDMI0_TX2_N"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "172"
 						(effects
 							(font
 								(size 0.9906 0.9906)
@@ -3285,24 +2638,6 @@
 					)
 				)
 				(pin input line
-					(at 20.32 -35.56 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "174"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
 					(at -20.32 -38.1 0)
 					(length 2.54)
 					(name "DSI1_D0_N"
@@ -3313,24 +2648,6 @@
 						)
 					)
 					(number "175"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 20.32 -38.1 180)
-					(length 2.54)
-					(name "HDMI0_TX1_P"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "176"
 						(effects
 							(font
 								(size 0.9906 0.9906)
@@ -3357,24 +2674,6 @@
 					)
 				)
 				(pin input line
-					(at 20.32 -40.64 180)
-					(length 2.54)
-					(name "HDMI0_TX1_N"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "178"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
 					(at -20.32 -43.18 0)
 					(length 2.54)
 					(name "GND"
@@ -3385,24 +2684,6 @@
 						)
 					)
 					(number "179"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 20.32 -43.18 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "180"
 						(effects
 							(font
 								(size 0.9906 0.9906)
@@ -3429,24 +2710,6 @@
 					)
 				)
 				(pin input line
-					(at 20.32 -45.72 180)
-					(length 2.54)
-					(name "HDMI0_TX0_P"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "182"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
 					(at -20.32 -48.26 0)
 					(length 2.54)
 					(name "DSI1_D1_P"
@@ -3457,24 +2720,6 @@
 						)
 					)
 					(number "183"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 20.32 -48.26 180)
-					(length 2.54)
-					(name "HDMI0_TX0_N"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "184"
 						(effects
 							(font
 								(size 0.9906 0.9906)
@@ -3501,24 +2746,6 @@
 					)
 				)
 				(pin input line
-					(at 20.32 -50.8 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "186"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
 					(at -20.32 -53.34 0)
 					(length 2.54)
 					(name "DSI1_C_N"
@@ -3529,24 +2756,6 @@
 						)
 					)
 					(number "187"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 20.32 -53.34 180)
-					(length 2.54)
-					(name "HDMI0_CLK_P"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "188"
 						(effects
 							(font
 								(size 0.9906 0.9906)
@@ -3573,24 +2782,6 @@
 					)
 				)
 				(pin input line
-					(at 20.32 -55.88 180)
-					(length 2.54)
-					(name "HDMI0_CLK_N"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "190"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
 					(at -20.32 -58.42 0)
 					(length 2.54)
 					(name "GND"
@@ -3601,24 +2792,6 @@
 						)
 					)
 					(number "191"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 20.32 -58.42 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "192"
 						(effects
 							(font
 								(size 0.9906 0.9906)
@@ -3645,24 +2818,6 @@
 					)
 				)
 				(pin input line
-					(at 20.32 -60.96 180)
-					(length 2.54)
-					(name "DSI1_D3_N"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "194"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
 					(at -20.32 -63.5 0)
 					(length 2.54)
 					(name "DSI1_D2_P"
@@ -3673,24 +2828,6 @@
 						)
 					)
 					(number "195"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 20.32 -63.5 180)
-					(length 2.54)
-					(name "DSI1_D3_P"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "196"
 						(effects
 							(font
 								(size 0.9906 0.9906)
@@ -3717,24 +2854,6 @@
 					)
 				)
 				(pin input line
-					(at 20.32 -66.04 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "198"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin input line
 					(at -20.32 -68.58 0)
 					(length 2.54)
 					(name "HDMI0_SDA"
@@ -3745,6 +2864,888 @@
 						)
 					)
 					(number "199"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 20.32 55.88 180)
+					(length 2.54)
+					(name "PCIE_CLK_~{REQ}"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "102"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 20.32 53.34 180)
+					(length 2.54)
+					(name "RESERVED"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "104"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 20.32 50.8 180)
+					(length 2.54)
+					(name "RESERVED"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "106"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 20.32 48.26 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "108"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 20.32 45.72 180)
+					(length 2.54)
+					(name "PCIE_CLK_P"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "110"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 20.32 43.18 180)
+					(length 2.54)
+					(name "PCIE_CLK_N"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "112"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 20.32 40.64 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "114"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 20.32 38.1 180)
+					(length 2.54)
+					(name "PCIE_RX_P"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "116"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 20.32 35.56 180)
+					(length 2.54)
+					(name "PCIE_RX_N"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "118"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 20.32 33.02 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "120"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 20.32 30.48 180)
+					(length 2.54)
+					(name "PCIE_TX_P"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "122"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 20.32 27.94 180)
+					(length 2.54)
+					(name "PCIE_TX_N"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "124"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 20.32 25.4 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "126"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 20.32 22.86 180)
+					(length 2.54)
+					(name "CAM0_D1_N"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "128"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 20.32 20.32 180)
+					(length 2.54)
+					(name "CAM0_D0_P"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "130"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 20.32 17.78 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "132"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 20.32 15.24 180)
+					(length 2.54)
+					(name "CAM0_D1_N"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "134"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 20.32 12.7 180)
+					(length 2.54)
+					(name "CAM0_D1_P"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "136"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 20.32 10.16 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "138"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 20.32 7.62 180)
+					(length 2.54)
+					(name "CAM0_C_N"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "140"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 20.32 5.08 180)
+					(length 2.54)
+					(name "CAM0_C_P"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "142"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 20.32 2.54 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "144"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 20.32 0 180)
+					(length 2.54)
+					(name "HDMI1_TX2_P"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "146"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 20.32 -2.54 180)
+					(length 2.54)
+					(name "HDMI1_TX2_N"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "148"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 20.32 -5.08 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "150"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 20.32 -7.62 180)
+					(length 2.54)
+					(name "HDMI1_TX1_P"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "152"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 20.32 -10.16 180)
+					(length 2.54)
+					(name "HDMI1_TX1_N"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "154"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 20.32 -12.7 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "156"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 20.32 -15.24 180)
+					(length 2.54)
+					(name "HDMI1_TX0_P"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "158"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 20.32 -17.78 180)
+					(length 2.54)
+					(name "HDMI1_TX0_N"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "160"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 20.32 -20.32 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "162"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 20.32 -22.86 180)
+					(length 2.54)
+					(name "HDMI1_CLK_P"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "164"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 20.32 -25.4 180)
+					(length 2.54)
+					(name "HDMI1_CLK_N"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "166"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 20.32 -27.94 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "168"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 20.32 -30.48 180)
+					(length 2.54)
+					(name "HDMI0_TX2_P"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "170"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 20.32 -33.02 180)
+					(length 2.54)
+					(name "HDMI0_TX2_N"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "172"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 20.32 -35.56 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "174"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 20.32 -38.1 180)
+					(length 2.54)
+					(name "HDMI0_TX1_P"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "176"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 20.32 -40.64 180)
+					(length 2.54)
+					(name "HDMI0_TX1_N"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "178"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 20.32 -43.18 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "180"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 20.32 -45.72 180)
+					(length 2.54)
+					(name "HDMI0_TX0_P"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "182"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 20.32 -48.26 180)
+					(length 2.54)
+					(name "HDMI0_TX0_N"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "184"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 20.32 -50.8 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "186"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 20.32 -53.34 180)
+					(length 2.54)
+					(name "HDMI0_CLK_P"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "188"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 20.32 -55.88 180)
+					(length 2.54)
+					(name "HDMI0_CLK_N"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "190"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 20.32 -58.42 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "192"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 20.32 -60.96 180)
+					(length 2.54)
+					(name "DSI1_D3_N"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "194"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 20.32 -63.5 180)
+					(length 2.54)
+					(name "DSI1_D3_P"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "196"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 20.32 -66.04 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "198"
 						(effects
 							(font
 								(size 0.9906 0.9906)
@@ -3771,12 +3772,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+3V3"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3848,7 +3854,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -3860,7 +3866,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -3891,12 +3897,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+5V"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3968,7 +3979,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -3980,7 +3991,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -4011,12 +4022,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -4107,7 +4123,22 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text "MAIN CONTROL: RASPBERRY PI COMPUTE MODULE 4"
+		(exclude_from_sim no)
+		(at 83.058 18.796 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+				(italic yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "562427be-2e97-4026-88f2-557f9a480b6f")
 	)
 	(junction
 		(at 215.9 60.96)
@@ -6367,23 +6398,8 @@
 		)
 		(uuid "fffaab4a-a960-4a57-9c8f-f519a5978502")
 	)
-	(text "MAIN CONTROL: RASPBERRY PI COMPUTE MODULE 4"
-		(exclude_from_sim no)
-		(at 83.058 18.796 0)
-		(effects
-			(font
-				(size 3 3)
-				(thickness 0.6)
-				(bold yes)
-				(italic yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "562427be-2e97-4026-88f2-557f9a480b6f")
-	)
 	(label "HDMI_PWR_ON"
 		(at 63.5 60.96 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6396,7 +6412,6 @@
 	)
 	(label "TRD2_P"
 		(at 237.49 107.95 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6408,7 +6423,6 @@
 	)
 	(label "TRD1_N"
 		(at 143.51 35.56 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6420,7 +6434,6 @@
 	)
 	(label "SD_DAT0"
 		(at 67.31 109.22 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6432,7 +6445,6 @@
 	)
 	(label "HDMI0_D0_P"
 		(at 240.03 31.75 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6444,7 +6456,6 @@
 	)
 	(label "Pico_sda"
 		(at 143.51 132.08 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6456,7 +6467,6 @@
 	)
 	(label "pico_rx"
 		(at 67.31 99.06 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6469,7 +6479,6 @@
 	)
 	(label "HDMI0_D1_P"
 		(at 229.87 124.46 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6481,7 +6490,6 @@
 	)
 	(label "SD_DAT1"
 		(at 237.49 90.17 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6493,7 +6501,6 @@
 	)
 	(label "SD_CLK"
 		(at 67.31 101.6 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6505,7 +6512,6 @@
 	)
 	(label "TRD3_N"
 		(at 237.49 115.57 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6517,7 +6523,6 @@
 	)
 	(label "swdio"
 		(at 48.26 78.74 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6530,7 +6535,6 @@
 	)
 	(label "USB_D+"
 		(at 237.49 67.31 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6542,7 +6546,6 @@
 	)
 	(label "TRD1_P"
 		(at 237.49 102.87 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6554,7 +6557,6 @@
 	)
 	(label "SD_PWR_ON"
 		(at 62.23 124.46 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6566,7 +6568,6 @@
 	)
 	(label "pico_rx"
 		(at 48.26 86.36 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6579,7 +6580,6 @@
 	)
 	(label "pico_tx"
 		(at 48.26 83.82 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6592,7 +6592,6 @@
 	)
 	(label "SD_PWR_ON"
 		(at 237.49 92.71 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6604,7 +6603,6 @@
 	)
 	(label "HDMI0_SCL"
 		(at 229.87 154.94 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6616,7 +6614,6 @@
 	)
 	(label "pico_tx"
 		(at 67.31 93.98 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6629,7 +6626,6 @@
 	)
 	(label "SD_CMD"
 		(at 143.51 106.68 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6641,7 +6637,6 @@
 	)
 	(label "TRD2_P"
 		(at 67.31 40.64 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6653,7 +6648,6 @@
 	)
 	(label "HDMI0_D1_N"
 		(at 240.03 39.37 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6665,7 +6659,6 @@
 	)
 	(label "SD_CLK"
 		(at 237.49 85.09 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6677,7 +6670,6 @@
 	)
 	(label "swclk"
 		(at 72.39 81.28 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6690,7 +6682,6 @@
 	)
 	(label "swdio"
 		(at 72.39 86.36 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6703,7 +6694,6 @@
 	)
 	(label "HDMI_PWR_ON"
 		(at 237.49 120.65 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6716,7 +6706,6 @@
 	)
 	(label "Pico_sda"
 		(at 48.26 68.58 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6728,7 +6717,6 @@
 	)
 	(label "SD_DAT1"
 		(at 67.31 114.3 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6740,7 +6728,6 @@
 	)
 	(label "TRD2_N"
 		(at 67.31 43.18 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6752,7 +6739,6 @@
 	)
 	(label "USB_D-"
 		(at 237.49 69.85 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6764,7 +6750,6 @@
 	)
 	(label "USB_ID"
 		(at 237.49 72.39 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6776,7 +6761,6 @@
 	)
 	(label "HDMI0_D2_P"
 		(at 240.03 41.91 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6788,7 +6772,6 @@
 	)
 	(label "HDMI0_D0_N"
 		(at 229.87 134.62 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6800,7 +6783,6 @@
 	)
 	(label "SD_DAT2"
 		(at 237.49 77.47 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6812,7 +6794,6 @@
 	)
 	(label "HDMI0_D1_P"
 		(at 240.03 36.83 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6824,7 +6805,6 @@
 	)
 	(label "TRD3_N"
 		(at 67.31 35.56 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6836,7 +6816,6 @@
 	)
 	(label "TRD3_P"
 		(at 237.49 113.03 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6848,7 +6827,6 @@
 	)
 	(label "Pico_scl"
 		(at 143.51 129.54 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6860,7 +6838,6 @@
 	)
 	(label "TRD0_P"
 		(at 143.51 43.18 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6872,7 +6849,6 @@
 	)
 	(label "SD_DAT0"
 		(at 237.49 87.63 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6884,7 +6860,6 @@
 	)
 	(label "HDMI0_D0_P"
 		(at 229.87 132.08 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6896,7 +6871,6 @@
 	)
 	(label "Pico_scl"
 		(at 48.26 71.12 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6908,7 +6882,6 @@
 	)
 	(label "TRD2_N"
 		(at 237.49 110.49 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6920,7 +6893,6 @@
 	)
 	(label "HDMI0_D2_P"
 		(at 229.87 116.84 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6932,7 +6904,6 @@
 	)
 	(label "HDMI0_CK_N"
 		(at 240.03 49.53 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6944,7 +6915,6 @@
 	)
 	(label "HDMI0_CEC"
 		(at 152.4 93.98 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6956,7 +6926,6 @@
 	)
 	(label "SD_DAT3"
 		(at 67.31 106.68 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6968,7 +6937,6 @@
 	)
 	(label "swclk"
 		(at 48.26 76.2 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6981,7 +6949,6 @@
 	)
 	(label "USB_D-"
 		(at 152.4 33.02 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6993,7 +6960,6 @@
 	)
 	(label "TRD0_P"
 		(at 237.49 97.79 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7005,7 +6971,6 @@
 	)
 	(label "HDMI0_SCL"
 		(at 240.03 57.15 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7017,7 +6982,6 @@
 	)
 	(label "HDMI0_HOTPLUG"
 		(at 148.59 96.52 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7029,7 +6993,6 @@
 	)
 	(label "HDMI0_HOTPLUG"
 		(at 237.49 63.5 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7041,7 +7004,6 @@
 	)
 	(label "TRD3_P"
 		(at 67.31 33.02 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7053,7 +7015,6 @@
 	)
 	(label "HDMI0_CK_P"
 		(at 240.03 46.99 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7065,7 +7026,6 @@
 	)
 	(label "HDMI0_CK_N"
 		(at 229.87 142.24 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7077,7 +7037,6 @@
 	)
 	(label "TRD1_P"
 		(at 143.51 33.02 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7089,7 +7048,6 @@
 	)
 	(label "TRD0_N"
 		(at 237.49 100.33 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7101,7 +7059,6 @@
 	)
 	(label "SD_DAT3"
 		(at 237.49 80.01 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7113,7 +7070,6 @@
 	)
 	(label "SD_DAT2"
 		(at 67.31 116.84 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7125,7 +7081,6 @@
 	)
 	(label "HDMI0_D0_N"
 		(at 240.03 34.29 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7137,7 +7092,6 @@
 	)
 	(label "HDMI0_CEC"
 		(at 240.03 53.34 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7149,7 +7103,6 @@
 	)
 	(label "HDMI0_D2_N"
 		(at 229.87 119.38 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7161,7 +7114,6 @@
 	)
 	(label "USB_D+"
 		(at 152.4 35.56 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7173,7 +7125,6 @@
 	)
 	(label "HDMI0_SDA"
 		(at 240.03 59.69 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7185,7 +7136,6 @@
 	)
 	(label "TRD1_N"
 		(at 237.49 105.41 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7197,7 +7147,6 @@
 	)
 	(label "HDMI0_CK_P"
 		(at 229.87 139.7 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7209,7 +7158,6 @@
 	)
 	(label "USB_ID"
 		(at 152.4 30.48 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7221,7 +7169,6 @@
 	)
 	(label "SD_CMD"
 		(at 237.49 82.55 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7233,7 +7180,6 @@
 	)
 	(label "HDMI0_SDA"
 		(at 152.4 154.94 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7245,7 +7191,6 @@
 	)
 	(label "TRD0_N"
 		(at 143.51 40.64 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7257,7 +7202,6 @@
 	)
 	(label "HDMI0_D2_N"
 		(at 240.03 44.45 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7269,7 +7213,6 @@
 	)
 	(label "HDMI0_D1_N"
 		(at 229.87 127 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9270,6 +9213,10 @@
 	(sheet
 		(at 20.32 173.99)
 		(size 64.77 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.3)
@@ -9309,6 +9256,10 @@
 	(sheet
 		(at 255.27 29.21)
 		(size 25.4 101.6)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.3)
 			(type solid)
@@ -9338,313 +9289,313 @@
 		)
 		(pin "HDMI0_D0_P" input
 			(at 255.27 31.75 180)
+			(uuid "3f53cf77-0cf2-4876-8a8e-56d0abc66bf2")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "3f53cf77-0cf2-4876-8a8e-56d0abc66bf2")
 		)
 		(pin "HDMI0_D0_N" input
 			(at 255.27 34.29 180)
+			(uuid "83f6e592-e6ce-476b-9d1d-0d87f76de309")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "83f6e592-e6ce-476b-9d1d-0d87f76de309")
 		)
 		(pin "HDMI0_CEC" input
 			(at 255.27 53.34 180)
+			(uuid "b5eeeac8-4170-4793-945e-2b78141ccd20")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "b5eeeac8-4170-4793-945e-2b78141ccd20")
 		)
 		(pin "HDMI0_CK_P" input
 			(at 255.27 46.99 180)
+			(uuid "b512edc4-d8a4-4e5d-a256-bc9aaf097ef4")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "b512edc4-d8a4-4e5d-a256-bc9aaf097ef4")
 		)
 		(pin "HDMI0_CK_N" input
 			(at 255.27 49.53 180)
+			(uuid "e77c990b-cb3e-4f71-b7a5-419952628baa")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "e77c990b-cb3e-4f71-b7a5-419952628baa")
 		)
 		(pin "HDMI0_SDA" input
 			(at 255.27 59.69 180)
+			(uuid "6238c266-8e90-4bc2-a4f3-bcb8d7e5043a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "6238c266-8e90-4bc2-a4f3-bcb8d7e5043a")
 		)
 		(pin "HDMI0_SCL" input
 			(at 255.27 57.15 180)
+			(uuid "954c6c3c-f9ef-47b5-9684-b229a75cf765")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "954c6c3c-f9ef-47b5-9684-b229a75cf765")
 		)
 		(pin "HDMI0_HOTPLUG" input
 			(at 255.27 63.5 180)
+			(uuid "ec25797a-a886-4398-bee7-ef17c090002f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "ec25797a-a886-4398-bee7-ef17c090002f")
 		)
 		(pin "HDMI0_D2_N" input
 			(at 255.27 44.45 180)
+			(uuid "41f7187b-d6e7-466f-8a41-edfb748defe5")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "41f7187b-d6e7-466f-8a41-edfb748defe5")
 		)
 		(pin "HDMI0_D1_N" input
 			(at 255.27 39.37 180)
+			(uuid "b55f2e16-c908-4bad-b687-0e4d3c310003")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "b55f2e16-c908-4bad-b687-0e4d3c310003")
 		)
 		(pin "HDMI0_D1_P" input
 			(at 255.27 36.83 180)
+			(uuid "c913e0e6-db6c-4ddd-b92a-5c658f11aba3")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "c913e0e6-db6c-4ddd-b92a-5c658f11aba3")
 		)
 		(pin "HDMI0_D2_P" input
 			(at 255.27 41.91 180)
+			(uuid "0376240e-7e1a-48df-9239-e2c384de2404")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "0376240e-7e1a-48df-9239-e2c384de2404")
 		)
 		(pin "SD_PWR_ON" input
 			(at 255.27 92.71 180)
+			(uuid "a903a0cf-614b-4d2e-b4c3-77a6eba8239b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "a903a0cf-614b-4d2e-b4c3-77a6eba8239b")
 		)
 		(pin "USB_D+" input
 			(at 255.27 67.31 180)
+			(uuid "810c7cd4-c075-450a-bef7-c2d8aa2ce7d5")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "810c7cd4-c075-450a-bef7-c2d8aa2ce7d5")
 		)
 		(pin "USB_D-" input
 			(at 255.27 69.85 180)
+			(uuid "ec536eee-9da4-48c8-b7e8-eaaa7283da52")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "ec536eee-9da4-48c8-b7e8-eaaa7283da52")
 		)
 		(pin "USB_ID" input
 			(at 255.27 72.39 180)
+			(uuid "f65e2396-4b99-48d6-a79c-08eb648b6d28")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "f65e2396-4b99-48d6-a79c-08eb648b6d28")
 		)
 		(pin "SD_CLK" input
 			(at 255.27 85.09 180)
+			(uuid "15f3a1c9-246f-49ac-ad22-7a7c6d317203")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "15f3a1c9-246f-49ac-ad22-7a7c6d317203")
 		)
 		(pin "SD_DAT0" input
 			(at 255.27 87.63 180)
+			(uuid "96cc231e-512d-4c26-986d-29334d4f7915")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "96cc231e-512d-4c26-986d-29334d4f7915")
 		)
 		(pin "SD_DAT1" input
 			(at 255.27 90.17 180)
+			(uuid "9b53e3a8-00cb-4440-b7f2-4cd7568fb060")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "9b53e3a8-00cb-4440-b7f2-4cd7568fb060")
 		)
 		(pin "SD_DAT3" input
 			(at 255.27 80.01 180)
+			(uuid "bb7f2f80-f7af-45c3-9c01-6022a5df766a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "bb7f2f80-f7af-45c3-9c01-6022a5df766a")
 		)
 		(pin "SD_CMD" input
 			(at 255.27 82.55 180)
+			(uuid "c75372ec-f6e4-448d-9951-54a9f77f71cf")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "c75372ec-f6e4-448d-9951-54a9f77f71cf")
 		)
 		(pin "SD_DAT2" input
 			(at 255.27 77.47 180)
+			(uuid "e5072834-0b89-4247-8d0e-bf3ce8bfedd2")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "e5072834-0b89-4247-8d0e-bf3ce8bfedd2")
 		)
 		(pin "TRD2_P" input
 			(at 255.27 107.95 180)
+			(uuid "dd3165cf-8261-4b8d-8bae-cab991638e98")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "dd3165cf-8261-4b8d-8bae-cab991638e98")
 		)
 		(pin "TRD0_N" input
 			(at 255.27 100.33 180)
+			(uuid "e253731c-9c9d-4c29-9c00-533f78b54be3")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "e253731c-9c9d-4c29-9c00-533f78b54be3")
 		)
 		(pin "TRD1_N" input
 			(at 255.27 105.41 180)
+			(uuid "080042da-2940-4526-ade2-1e6d6e755c8a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "080042da-2940-4526-ade2-1e6d6e755c8a")
 		)
 		(pin "TRD1_P" input
 			(at 255.27 102.87 180)
+			(uuid "c776d710-23a1-4abf-a975-b191d0cef7e7")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "c776d710-23a1-4abf-a975-b191d0cef7e7")
 		)
 		(pin "TRD0_P" input
 			(at 255.27 97.79 180)
+			(uuid "8fd259f6-1ad5-44ba-b302-749ba52afd42")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "8fd259f6-1ad5-44ba-b302-749ba52afd42")
 		)
 		(pin "TRD2_N" input
 			(at 255.27 110.49 180)
+			(uuid "bc4d50c3-2da9-4b7d-a728-6fbed72eeac1")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "bc4d50c3-2da9-4b7d-a728-6fbed72eeac1")
 		)
 		(pin "TRD3_P" input
 			(at 255.27 113.03 180)
+			(uuid "52f26b35-0b6b-4151-abb5-abb6d6f13883")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "52f26b35-0b6b-4151-abb5-abb6d6f13883")
 		)
 		(pin "TRD3_N" input
 			(at 255.27 115.57 180)
+			(uuid "a1a7dd7f-6285-4a39-a7b7-8b26f8447e30")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "a1a7dd7f-6285-4a39-a7b7-8b26f8447e30")
 		)
 		(pin "HDMI_PWR_ON" input
 			(at 255.27 120.65 180)
+			(uuid "3069dc8d-3286-4f39-b897-2aa0b7d6f42d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "3069dc8d-3286-4f39-b897-2aa0b7d6f42d")
 		)
 		(instances
 			(project "apple_pi_tv_board"
@@ -9657,6 +9608,10 @@
 	(sheet
 		(at 13.97 64.77)
 		(size 21.59 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.3)
@@ -9687,63 +9642,63 @@
 		)
 		(pin "Pico_sda" input
 			(at 35.56 68.58 0)
+			(uuid "20b75ec4-fcf1-4776-b7e4-8869e787f3aa")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "20b75ec4-fcf1-4776-b7e4-8869e787f3aa")
 		)
 		(pin "Pico_scl" input
 			(at 35.56 71.12 0)
+			(uuid "0fb7dcbe-c8e4-4605-92a6-cca683c28f9d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "0fb7dcbe-c8e4-4605-92a6-cca683c28f9d")
 		)
 		(pin "SWCLK" input
 			(at 35.56 76.2 0)
+			(uuid "c370d8df-5490-453a-8e4a-61707c98edab")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "c370d8df-5490-453a-8e4a-61707c98edab")
 		)
 		(pin "SWD" input
 			(at 35.56 78.74 0)
+			(uuid "a7e74f34-4e05-4757-b214-30534088370a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "a7e74f34-4e05-4757-b214-30534088370a")
 		)
 		(pin "Pico_tx" input
 			(at 35.56 83.82 0)
+			(uuid "5b728067-848a-46a8-8869-bf0a34e4c485")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "5b728067-848a-46a8-8869-bf0a34e4c485")
 		)
 		(pin "Pico_rx" input
 			(at 35.56 86.36 0)
+			(uuid "c0c2d7a4-4298-4295-9d79-1ca6e88a503c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "c0c2d7a4-4298-4295-9d79-1ca6e88a503c")
 		)
 		(instances
 			(project "apple_pi_tv_board"
@@ -9758,4 +9713,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
