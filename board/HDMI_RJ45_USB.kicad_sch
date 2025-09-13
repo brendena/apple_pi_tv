@@ -3189,16 +3189,6 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 83.82) (xy 207.01 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "03b6cae0-b935-431c-9e30-a60bdcdb4198")
-	)
-	(wire
-		(pts
 			(xy 58.42 173.99) (xy 46.99 173.99)
 		)
 		(stroke
@@ -3279,16 +3269,6 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 78.74) (xy 207.01 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "25a27391-1279-46e3-92e8-4ebef1d396f5")
-	)
-	(wire
-		(pts
 			(xy 245.11 78.74) (xy 232.41 78.74)
 		)
 		(stroke
@@ -3329,13 +3309,13 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 119.38) (xy 207.01 119.38)
+			(xy 195.58 114.3) (xy 207.01 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "32d7a2da-dc72-4ad8-aef6-4bc34d8dd96d")
+		(uuid "3488eba5-6273-43a8-ad80-728d26a7e15f")
 	)
 	(wire
 		(pts
@@ -3569,6 +3549,16 @@
 	)
 	(wire
 		(pts
+			(xy 195.58 119.38) (xy 207.01 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e66deb4-a5cb-428d-becf-f16c97763637")
+	)
+	(wire
+		(pts
 			(xy 101.6 120.65) (xy 101.6 125.73)
 		)
 		(stroke
@@ -3619,6 +3609,16 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 83.82) (xy 207.01 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "701fbaaa-4347-40cd-8608-e7f393824a83")
+	)
+	(wire
+		(pts
 			(xy 67.31 99.06) (xy 83.82 99.06)
 		)
 		(stroke
@@ -3656,6 +3656,16 @@
 			(type default)
 		)
 		(uuid "79e53bfd-71cd-4ad5-a4af-dbb4aee8134f")
+	)
+	(wire
+		(pts
+			(xy 194.31 78.74) (xy 207.01 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7dd25784-7eb7-4111-8c9f-f5018be10365")
 	)
 	(wire
 		(pts
@@ -3859,16 +3869,6 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 114.3) (xy 207.01 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d1b466d9-fe21-4c6c-a5a7-7a23ea625ca7")
-	)
-	(wire
-		(pts
 			(xy 29.21 163.83) (xy 29.21 166.37)
 		)
 		(stroke
@@ -4038,7 +4038,7 @@
 		(uuid "29bf1564-ce43-4681-b584-b14729e99b33")
 	)
 	(label "TRD3_N"
-		(at 194.31 119.38 180)
+		(at 195.58 114.3 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4047,7 +4047,7 @@
 		)
 		(uuid "46a8f751-fccf-4733-b277-73c9edaf23ea")
 	)
-	(label "TRD2_P"
+	(label "TRD2_N"
 		(at 245.11 119.38 0)
 		(effects
 			(font
@@ -4087,7 +4087,7 @@
 		)
 		(uuid "78d53d47-fb63-4344-a06d-e9f454a1bdf6")
 	)
-	(label "TRD2_N"
+	(label "TRD2_P"
 		(at 245.11 114.3 0)
 		(effects
 			(font
@@ -4118,7 +4118,7 @@
 		(uuid "c34b8c34-e3ab-4fc9-8500-5e9777f7e292")
 	)
 	(label "TRD1_N"
-		(at 194.31 83.82 180)
+		(at 194.31 78.74 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4128,7 +4128,7 @@
 		(uuid "c98ae9af-546d-43c6-8628-0b6ea58f9c7f")
 	)
 	(label "TRD1_P"
-		(at 194.31 78.74 180)
+		(at 193.04 83.82 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4138,7 +4138,7 @@
 		(uuid "ce0b1125-35c9-4028-bc4f-6666e17747fd")
 	)
 	(label "TRD3_P"
-		(at 194.31 114.3 180)
+		(at 195.58 119.38 180)
 		(effects
 			(font
 				(size 1.27 1.27)
