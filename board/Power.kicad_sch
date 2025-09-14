@@ -2258,7 +2258,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "18.1uH"
+		(property "Value" "1uH"
 			(at 153.67 85.09 90)
 			(effects
 				(font
@@ -2267,7 +2267,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Coilcraft_XxL4020"
+		(property "Footprint" "MDA4020:MDA4020"
 			(at 153.67 86.36 0)
 			(effects
 				(font
@@ -2285,7 +2285,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "L_Coilcraft_XxL4020"
 			(at 153.67 86.36 0)
 			(effects
 				(font

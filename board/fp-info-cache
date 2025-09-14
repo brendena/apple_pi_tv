@@ -1,4 +1,4 @@
-26651457666609406
+26654973437694280
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -67136,6 +67136,13 @@ SMT
 0
 2
 2
+Inductor_SMD_Wurth
+Untitled
+
+
+0
+0
+0
 Inductor_THT
 Choke_EPCOS_B82722A
 Current-Compensated Ring Core Double Chokes, EPCOS, B82722A, 22.3mmx22.7mm, https://en.tdk.eu/inf/30/db/ind_2008/b82722a_j.pdf
@@ -70552,6 +70559,13 @@ Yellow 5381 Series LED
 0
 2
 2
+MDA4020
+MDA4020
+
+
+0
+0
+0
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet

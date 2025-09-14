@@ -6253,7 +6253,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "AOTA-B201610S3R3-101-T"
+		(property "Description" "Abracon AOTA-B201610S3R3-101-T"
 			(at 59.69 58.42 0)
 			(effects
 				(font
@@ -6852,7 +6852,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "RP2350A-QFN60"
+		(property "Value" "RP2354A"
 			(at 127.8733 148.59 0)
 			(effects
 				(font

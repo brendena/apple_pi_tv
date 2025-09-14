@@ -1,7 +1,7 @@
 (footprint "apple_tv_ethernet"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -0.5 0)
@@ -20,19 +20,6 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "00c77891-f990-4914-8be8-889b1246269f")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "9654d435-85d4-46f3-844a-0b1df0aa7460")
 		(effects
 			(font
 				(size 1 1)
@@ -84,7 +71,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.9")
 		(uuid "14bae4ef-31ec-4233-b1a6-06d069121eaa")
 	)
@@ -108,6 +95,22 @@
 			(xy -4.2 7) (xy 4.2 7)
 		)
 		(height 2.2)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
 		(gr_text "8.4000 mm"
 			(at 0 8.05 0)
 			(layer "User.1")
@@ -119,19 +122,6 @@
 				)
 			)
 		)
-		(format
-			(prefix "")
-			(suffix "")
-			(units 3)
-			(units_format 1)
-			(precision 4)
-		)
-		(style
-			(thickness 0.1)
-			(arrow_length 1.27)
-			(text_position_mode 0)
-			(extension_height 0.58642)
-			(extension_offset 0.5) keep_text_aligned)
 	)
 	(dimension
 		(type aligned)
@@ -141,17 +131,6 @@
 			(xy 6 7) (xy 6 0)
 		)
 		(height 16.25)
-		(gr_text "7.0000 mm"
-			(at 9 2 90)
-			(layer "User.1")
-			(uuid "6e02b264-77fb-4973-951a-6fac5f8299e1")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(format
 			(prefix "")
 			(suffix "")
@@ -163,8 +142,22 @@
 			(thickness 0.1)
 			(arrow_length 1.27)
 			(text_position_mode 2)
+			(arrow_direction outward)
 			(extension_height 0.58642)
-			(extension_offset 0.5) keep_text_aligned)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "7.0000 mm"
+			(at 9 2 90)
+			(layer "User.1")
+			(uuid "6e02b264-77fb-4973-951a-6fac5f8299e1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 	)
 	(dimension
 		(type aligned)
@@ -174,6 +167,22 @@
 			(xy -9 -4) (xy 9 -4)
 		)
 		(height -15.4)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
 		(gr_text "18.0000 mm"
 			(at 0 -20.55 0)
 			(layer "User.1")
@@ -185,6 +194,15 @@
 				)
 			)
 		)
+	)
+	(dimension
+		(type aligned)
+		(layer "User.1")
+		(uuid "891e2002-a062-4042-ad78-3d7350869ff4")
+		(pts
+			(xy 9 -4) (xy 9 -3)
+		)
+		(height 2)
 		(format
 			(prefix "")
 			(suffix "")
@@ -196,17 +214,11 @@
 			(thickness 0.1)
 			(arrow_length 1.27)
 			(text_position_mode 0)
+			(arrow_direction outward)
 			(extension_height 0.58642)
-			(extension_offset 0.5) keep_text_aligned)
-	)
-	(dimension
-		(type aligned)
-		(layer "User.1")
-		(uuid "891e2002-a062-4042-ad78-3d7350869ff4")
-		(pts
-			(xy 9 -4) (xy 9 -3)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
 		)
-		(height 2)
 		(gr_text "1.0000 mm"
 			(at 5.85 -3.5 90)
 			(layer "User.1")
@@ -218,6 +230,15 @@
 				)
 			)
 		)
+	)
+	(dimension
+		(type aligned)
+		(layer "User.1")
+		(uuid "a2b0cc76-a8d4-4b46-a256-db17374cb313")
+		(pts
+			(xy -7.5 0) (xy -7.5 -15.3)
+		)
+		(height -6)
 		(format
 			(prefix "")
 			(suffix "")
@@ -229,17 +250,11 @@
 			(thickness 0.1)
 			(arrow_length 1.27)
 			(text_position_mode 0)
+			(arrow_direction outward)
 			(extension_height 0.58642)
-			(extension_offset 0.5) keep_text_aligned)
-	)
-	(dimension
-		(type aligned)
-		(layer "User.1")
-		(uuid "a2b0cc76-a8d4-4b46-a256-db17374cb313")
-		(pts
-			(xy -7.5 0) (xy -7.5 -15.3)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
 		)
-		(height -6)
 		(gr_text "15.3000 mm"
 			(at -14.65 -7.65 90)
 			(layer "User.1")
@@ -251,6 +266,15 @@
 				)
 			)
 		)
+	)
+	(dimension
+		(type aligned)
+		(layer "User.1")
+		(uuid "b01df8a3-e6d0-40fa-b0fb-aa0719691ec0")
+		(pts
+			(xy -7.5 0) (xy -7.5 -3)
+		)
+		(height 22.75)
 		(format
 			(prefix "")
 			(suffix "")
@@ -262,17 +286,11 @@
 			(thickness 0.1)
 			(arrow_length 1.27)
 			(text_position_mode 0)
+			(arrow_direction outward)
 			(extension_height 0.58642)
-			(extension_offset 0.5) keep_text_aligned)
-	)
-	(dimension
-		(type aligned)
-		(layer "User.1")
-		(uuid "b01df8a3-e6d0-40fa-b0fb-aa0719691ec0")
-		(pts
-			(xy -7.5 0) (xy -7.5 -3)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
 		)
-		(height 22.75)
 		(gr_text "3.0000 mm"
 			(at 14.1 -1.5 90)
 			(layer "User.1")
@@ -284,6 +302,15 @@
 				)
 			)
 		)
+	)
+	(dimension
+		(type aligned)
+		(layer "User.1")
+		(uuid "e169a953-77eb-4e3c-86ef-d331b2c3286a")
+		(pts
+			(xy -7.5 7) (xy 7.5 7)
+		)
+		(height 5)
 		(format
 			(prefix "")
 			(suffix "")
@@ -295,17 +322,11 @@
 			(thickness 0.1)
 			(arrow_length 1.27)
 			(text_position_mode 0)
+			(arrow_direction outward)
 			(extension_height 0.58642)
-			(extension_offset 0.5) keep_text_aligned)
-	)
-	(dimension
-		(type aligned)
-		(layer "User.1")
-		(uuid "e169a953-77eb-4e3c-86ef-d331b2c3286a")
-		(pts
-			(xy -7.5 7) (xy 7.5 7)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
 		)
-		(height 5)
 		(gr_text "15.0000 mm"
 			(at 0 10.85 0)
 			(layer "User.1")
@@ -317,19 +338,6 @@
 				)
 			)
 		)
-		(format
-			(prefix "")
-			(suffix "")
-			(units 3)
-			(units_format 1)
-			(precision 4)
-		)
-		(style
-			(thickness 0.1)
-			(arrow_length 1.27)
-			(text_position_mode 0)
-			(extension_height 0.58642)
-			(extension_offset 0.5) keep_text_aligned)
 	)
 	(pad "" np_thru_hole oval
 		(at -5.8 4.9)
@@ -419,16 +427,16 @@
 	)
 	(pad "9" thru_hole oval
 		(at -4.2 7)
-		(size 3.6 1.5)
-		(drill oval 3.3 1)
+		(size 3 1)
+		(drill oval 2.7 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "39c6bae5-92cf-4846-b632-c146a4d94ee1")
 	)
 	(pad "9" thru_hole oval
 		(at 4.2 7)
-		(size 3.6 1.5)
-		(drill oval 3.3 1)
+		(size 3 1)
+		(drill oval 2.7 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "6a5e4850-e8fe-43fe-981b-a9281d2c36e3")
@@ -440,6 +448,10 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "2eebf2ec-af91-4fbd-8738-0f4a3491b6f1")
+	)
+	(group ""
+		(uuid "9ec14e5e-db06-4aee-9ebe-2c96cf590be0")
+		(members "16342936-5c5a-410c-b5b9-72af333fb1ff" "854c5c9b-e2d2-4ed3-a871-666739cb0a28")
 	)
 	(group ""
 		(uuid "4ccc25d7-3a64-4517-a912-2b52d4d6e092")
@@ -457,8 +469,5 @@
 		(uuid "d6527a5f-113a-4b80-bb01-c0b3034072f3")
 		(members "4ccc25d7-3a64-4517-a912-2b52d4d6e092" "81980ca6-352e-44d9-a25e-2895f805fd16")
 	)
-	(group ""
-		(uuid "9ec14e5e-db06-4aee-9ebe-2c96cf590be0")
-		(members "16342936-5c5a-410c-b5b9-72af333fb1ff" "854c5c9b-e2d2-4ed3-a871-666739cb0a28")
-	)
+	(embedded_fonts no)
 )
