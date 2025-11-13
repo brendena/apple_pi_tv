@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "apple_tv_parts")(type "KiCad")(uri "${KIPRJMOD}/parts/applePiTv.pretty")(options "")(descr ""))
   (lib (name "MDA4020")(type "KiCad")(uri "${KIPRJMOD}/parts/MDA4020.pretty")(options "")(descr ""))
+  (lib (name "H5007NL")(type "KiCad")(uri "${KIPRJMOD}/parts/H5007NL/H5007NL.pretty")(options "")(descr ""))
 )

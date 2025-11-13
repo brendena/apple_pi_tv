@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "apple_tv_parts")(type "KiCad")(uri "${KIPRJMOD}/parts/applePiTv.kicad_sym")(options "")(descr ""))
   (lib (name "rp2350")(type "KiCad")(uri "${KIPRJMOD}/parts/RP2350_KiCad/rp2350a-qfn60.kicad_sym")(options "")(descr ""))
+  (lib (name "H5007NL")(type "KiCad")(uri "${KIPRJMOD}/parts/H5007NL/H5007NL.kicad_sym")(options "")(descr ""))
 )

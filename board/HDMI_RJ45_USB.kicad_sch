@@ -1215,6 +1215,656 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "H5007NL:H5007NL"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "T"
+				(at 19.05 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "H5007NL"
+				(at 19.05 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "H5007NL:SOIC127P1600X551-24N"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Pulse"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MF" "Pulse Electronics Network"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "RS_Price-Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=673-H5007NL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "- Isolation and Data Interface (Encapsulated) Pulse Transformer 1CT:1CT Surface Mount"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "RS_Part_Number" "673-H5007NL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Mouser_Part_Number" "673-H5007NL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/H5007NL/Pulse/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Height" "5.51mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/H5007NL/Pulse/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "H5007NL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "Pulse Electronics Network"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Mouser_Price-Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=673-H5007NL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "H5007NL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "H5007NL_0_0"
+				(rectangle
+					(start 5.08 -30.48)
+					(end 17.78 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin bidirectional line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -10.16 0)
+					(length 5.08)
+					(name "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -12.7 0)
+					(length 5.08)
+					(name "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -15.24 0)
+					(length 5.08)
+					(name "7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -17.78 0)
+					(length 5.08)
+					(name "8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -20.32 0)
+					(length 5.08)
+					(name "9"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -22.86 0)
+					(length 5.08)
+					(name "10"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -25.4 0)
+					(length 5.08)
+					(name "11"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -27.94 0)
+					(length 5.08)
+					(name "12"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 22.86 0 180)
+					(length 5.08)
+					(name "24"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 22.86 -2.54 180)
+					(length 5.08)
+					(name "23"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 22.86 -5.08 180)
+					(length 5.08)
+					(name "22"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 22.86 -7.62 180)
+					(length 5.08)
+					(name "21"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 22.86 -10.16 180)
+					(length 5.08)
+					(name "20"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 22.86 -12.7 180)
+					(length 5.08)
+					(name "19"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 22.86 -15.24 180)
+					(length 5.08)
+					(name "18"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 22.86 -17.78 180)
+					(length 5.08)
+					(name "17"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 22.86 -20.32 180)
+					(length 5.08)
+					(name "16"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 22.86 -22.86 180)
+					(length 5.08)
+					(name "15"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 22.86 -25.4 180)
+					(length 5.08)
+					(name "14"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 22.86 -27.94 180)
+					(length 5.08)
+					(name "13"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Power_Protection:TPD4EUSB30"
 			(pin_names
 				(offset 0)
@@ -3269,7 +3919,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 78.74) (xy 232.41 78.74)
+			(xy 204.47 87.63) (xy 191.77 87.63)
 		)
 		(stroke
 			(width 0)
@@ -3309,7 +3959,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 114.3) (xy 207.01 114.3)
+			(xy 154.94 123.19) (xy 166.37 123.19)
 		)
 		(stroke
 			(width 0)
@@ -3379,7 +4029,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 119.38) (xy 232.41 119.38)
+			(xy 204.47 128.27) (xy 191.77 128.27)
 		)
 		(stroke
 			(width 0)
@@ -3509,7 +4159,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 114.3) (xy 232.41 114.3)
+			(xy 204.47 123.19) (xy 191.77 123.19)
 		)
 		(stroke
 			(width 0)
@@ -3549,7 +4199,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 119.38) (xy 207.01 119.38)
+			(xy 154.94 128.27) (xy 166.37 128.27)
 		)
 		(stroke
 			(width 0)
@@ -3609,7 +4259,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 83.82) (xy 207.01 83.82)
+			(xy 152.4 92.71) (xy 166.37 92.71)
 		)
 		(stroke
 			(width 0)
@@ -3649,7 +4299,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 129.54) (xy 219.71 132.08)
+			(xy 179.07 138.43) (xy 179.07 140.97)
 		)
 		(stroke
 			(width 0)
@@ -3659,7 +4309,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 78.74) (xy 207.01 78.74)
+			(xy 153.67 87.63) (xy 166.37 87.63)
 		)
 		(stroke
 			(width 0)
@@ -3829,7 +4479,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 93.98) (xy 219.71 96.52)
+			(xy 179.07 102.87) (xy 179.07 105.41)
 		)
 		(stroke
 			(width 0)
@@ -3959,7 +4609,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 83.82) (xy 232.41 83.82)
+			(xy 204.47 92.71) (xy 191.77 92.71)
 		)
 		(stroke
 			(width 0)
@@ -4038,7 +4688,7 @@
 		(uuid "29bf1564-ce43-4681-b584-b14729e99b33")
 	)
 	(label "TRD3_N"
-		(at 195.58 114.3 180)
+		(at 154.94 123.19 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4048,7 +4698,7 @@
 		(uuid "46a8f751-fccf-4733-b277-73c9edaf23ea")
 	)
 	(label "TRD2_N"
-		(at 245.11 119.38 0)
+		(at 204.47 128.27 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4078,7 +4728,7 @@
 		(uuid "6cb8eb22-db4c-465e-80c2-4c2b521feb63")
 	)
 	(label "TRD0_N"
-		(at 245.11 78.74 0)
+		(at 204.47 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4088,7 +4738,7 @@
 		(uuid "78d53d47-fb63-4344-a06d-e9f454a1bdf6")
 	)
 	(label "TRD2_P"
-		(at 245.11 114.3 0)
+		(at 204.47 123.19 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4108,7 +4758,7 @@
 		(uuid "b52fd9f8-9185-49a0-812d-790c4e2339cc")
 	)
 	(label "TRD0_P"
-		(at 245.11 83.82 0)
+		(at 204.47 92.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4118,7 +4768,7 @@
 		(uuid "c34b8c34-e3ab-4fc9-8500-5e9777f7e292")
 	)
 	(label "TRD1_N"
-		(at 194.31 78.74 180)
+		(at 153.67 87.63 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4128,7 +4778,7 @@
 		(uuid "c98ae9af-546d-43c6-8628-0b6ea58f9c7f")
 	)
 	(label "TRD1_P"
-		(at 193.04 83.82 180)
+		(at 152.4 92.71 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4138,7 +4788,7 @@
 		(uuid "ce0b1125-35c9-4028-bc4f-6666e17747fd")
 	)
 	(label "TRD3_P"
-		(at 195.58 119.38 180)
+		(at 154.94 128.27 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4620,7 +5270,7 @@
 	)
 	(symbol
 		(lib_id "Power_Protection:TPD4EUSB30")
-		(at 219.71 116.84 0)
+		(at 179.07 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4629,7 +5279,7 @@
 		(fields_autoplaced yes)
 		(uuid "1e005fd3-7f95-441a-8826-f9b44ee645c0")
 		(property "Reference" "U11"
-			(at 219.71 104.14 0)
+			(at 179.07 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4637,7 +5287,7 @@
 			)
 		)
 		(property "Value" "TPD4EUSB30"
-			(at 219.71 106.68 0)
+			(at 179.07 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4645,7 +5295,7 @@
 			)
 		)
 		(property "Footprint" "Package_SON:USON-10_2.5x1.0mm_P0.5mm"
-			(at 195.58 127 0)
+			(at 154.94 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4654,7 +5304,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tpd2eusb30a.pdf"
-			(at 219.71 116.84 0)
+			(at 179.07 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4663,7 +5313,7 @@
 			)
 		)
 		(property "Description" "4-Channel ESD Protection for Super-Speed USB 3.0 Interface, USON-10"
-			(at 219.71 116.84 0)
+			(at 179.07 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4712,7 +5362,7 @@
 	)
 	(symbol
 		(lib_id "Power_Protection:TPD4EUSB30")
-		(at 219.71 81.28 0)
+		(at 179.07 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4721,7 +5371,7 @@
 		(fields_autoplaced yes)
 		(uuid "269f547c-a9b9-41e0-b550-3cc7a6f208e3")
 		(property "Reference" "U6"
-			(at 219.71 68.58 0)
+			(at 179.07 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4729,7 +5379,7 @@
 			)
 		)
 		(property "Value" "TPD4EUSB30"
-			(at 219.71 71.12 0)
+			(at 179.07 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4737,7 +5387,7 @@
 			)
 		)
 		(property "Footprint" "Package_SON:USON-10_2.5x1.0mm_P0.5mm"
-			(at 195.58 91.44 0)
+			(at 154.94 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4746,7 +5396,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tpd2eusb30a.pdf"
-			(at 219.71 81.28 0)
+			(at 179.07 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4755,7 +5405,7 @@
 			)
 		)
 		(property "Description" "4-Channel ESD Protection for Super-Speed USB 3.0 Interface, USON-10"
-			(at 219.71 81.28 0)
+			(at 179.07 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5437,6 +6087,291 @@
 		)
 	)
 	(symbol
+		(lib_id "H5007NL:H5007NL")
+		(at 227.33 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8f4262e3-298e-46b2-acd8-a287428cfae1")
+		(property "Reference" "T1"
+			(at 238.76 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "H5007NL"
+			(at 238.76 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "H5007NL:SOIC127P1600X551-24N"
+			(at 227.33 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 227.33 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 227.33 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Pulse"
+			(at 227.33 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "Pulse Electronics Network"
+			(at 227.33 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "RS_Price-Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=673-H5007NL"
+			(at 227.33 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "- Isolation and Data Interface (Encapsulated) Pulse Transformer 1CT:1CT Surface Mount"
+			(at 227.33 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "RS_Part_Number" "673-H5007NL"
+			(at 227.33 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 227.33 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser_Part_Number" "673-H5007NL"
+			(at 227.33 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/H5007NL/Pulse/view-part/?ref=eda"
+			(at 227.33 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Height" "5.51mm"
+			(at 227.33 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/H5007NL/Pulse/view-part/?ref=snap"
+			(at 227.33 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "H5007NL"
+			(at 227.33 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "Pulse Electronics Network"
+			(at 227.33 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser_Price-Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=673-H5007NL"
+			(at 227.33 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 227.33 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "H5007NL"
+			(at 227.33 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "18"
+			(uuid "981a0bc6-3cd4-461e-8050-4b2c717d1ddd")
+		)
+		(pin "1"
+			(uuid "804a124f-49c6-4013-b54e-c07a98f12606")
+		)
+		(pin "5"
+			(uuid "ac81cbfc-43f5-46f8-a8f7-6f93e98e9ede")
+		)
+		(pin "4"
+			(uuid "d8f54e3f-ff6f-4123-a4df-d074c1137224")
+		)
+		(pin "3"
+			(uuid "95cbcddb-6339-48b3-b599-c4c1a1f0060d")
+		)
+		(pin "2"
+			(uuid "1469dc82-5077-4289-9b6c-33a4490ec1ea")
+		)
+		(pin "10"
+			(uuid "2e91d5d5-1c16-436a-a055-f63f3784ce03")
+		)
+		(pin "9"
+			(uuid "1910ba44-fd43-4a82-a903-e427c71809bd")
+		)
+		(pin "8"
+			(uuid "45e6954a-1e6b-4a8e-a5aa-634166306097")
+		)
+		(pin "7"
+			(uuid "f7338ad9-d1c0-4990-b0d0-a07d66623b61")
+		)
+		(pin "6"
+			(uuid "edc718c5-d43a-4efd-8170-1b93225b0322")
+		)
+		(pin "11"
+			(uuid "f4e1d392-82a2-4563-81bf-8eb58cb73f9e")
+		)
+		(pin "12"
+			(uuid "f9b0a6a0-be72-4611-ab11-8f88bc58ca7b")
+		)
+		(pin "24"
+			(uuid "8c2b3ee0-d649-4c33-b5d7-aa280d036f8b")
+		)
+		(pin "23"
+			(uuid "1e86be69-d08b-4f9d-abb7-c953e857ec0d")
+		)
+		(pin "22"
+			(uuid "d75dd449-c447-4193-b6cd-3fe8a7eaf44d")
+		)
+		(pin "21"
+			(uuid "bbcd60fd-1deb-40b5-bb62-ca1f9553083a")
+		)
+		(pin "20"
+			(uuid "f0abcf59-c6f9-48cf-af12-6e6195461735")
+		)
+		(pin "19"
+			(uuid "21349b74-7d9a-460a-8c73-60614738ed1e")
+		)
+		(pin "14"
+			(uuid "dbf0af35-dd7c-4366-9c80-9a5b602a2c75")
+		)
+		(pin "13"
+			(uuid "f7e21cae-d8e4-42a3-bce4-2d4e7d6b222c")
+		)
+		(pin "15"
+			(uuid "a28a9b23-79f5-4b51-8532-e2a6726584eb")
+		)
+		(pin "17"
+			(uuid "4ce18ebb-8838-4cda-b93b-80ce4d473f80")
+		)
+		(pin "16"
+			(uuid "60d9730c-f72a-4836-8167-198f5ce39cc8")
+		)
+		(instances
+			(project ""
+				(path "/391fcf0b-b604-4ad0-921e-8f3dad9a49eb/c5e1f0e2-c40e-4ccf-aeb8-8ca027446308"
+					(reference "T1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 142.24 160.02 0)
 		(unit 1)
@@ -5503,7 +6438,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 219.71 96.52 0)
+		(at 179.07 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5511,7 +6446,7 @@
 		(dnp no)
 		(uuid "c9d59bdf-e8d8-4b6f-bb54-2ed0236aa5d4")
 		(property "Reference" "#PWR018"
-			(at 219.71 102.87 0)
+			(at 179.07 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5520,7 +6455,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 219.71 99.822 0)
+			(at 179.07 108.712 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5528,7 +6463,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 219.71 96.52 0)
+			(at 179.07 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5537,7 +6472,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 219.71 96.52 0)
+			(at 179.07 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5546,7 +6481,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 219.71 96.52 0)
+			(at 179.07 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6069,7 +7004,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 219.71 132.08 0)
+		(at 179.07 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6077,7 +7012,7 @@
 		(dnp no)
 		(uuid "f8ca5681-a77b-4b25-9eae-74a34496b4cc")
 		(property "Reference" "#PWR019"
-			(at 219.71 138.43 0)
+			(at 179.07 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6086,7 +7021,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 219.71 135.382 0)
+			(at 179.07 144.272 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6094,7 +7029,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 219.71 132.08 0)
+			(at 179.07 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6103,7 +7038,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 219.71 132.08 0)
+			(at 179.07 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6112,7 +7047,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 219.71 132.08 0)
+			(at 179.07 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
