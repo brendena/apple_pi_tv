@@ -7594,17 +7594,6 @@
 		)
 		(uuid "3892d0ad-de2d-43c6-a00d-f68795c907ba")
 	)
-	(label "TRD2_P"
-		(at 67.31 40.64 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "389a9f9e-de8d-4cf2-962d-495321e9a591")
-	)
 	(label "HDMI0_D1_N"
 		(at 240.03 39.37 0)
 		(effects
@@ -7684,17 +7673,6 @@
 			(justify left bottom)
 		)
 		(uuid "4b1cff3f-e658-45ab-ad5e-4bb7849ecbee")
-	)
-	(label "TRD2_N"
-		(at 67.31 43.18 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "4e6d9519-7cd1-4934-9b3f-87c6507b96da")
 	)
 	(label "USB_D-"
 		(at 237.49 69.85 0)
@@ -7860,6 +7838,17 @@
 			(justify right bottom)
 		)
 		(uuid "8b9e29b6-d175-49b5-a444-1fd488f08df5")
+	)
+	(label "TRD2_N"
+		(at 67.31 40.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "9172fdfa-8c14-43bd-984a-989e65585107")
 	)
 	(label "HDMI0_CK_N"
 		(at 240.03 49.53 0)
@@ -8136,6 +8125,17 @@
 			(justify left bottom)
 		)
 		(uuid "f1701d61-ad92-4892-8943-bd46adbe6704")
+	)
+	(label "TRD2_P"
+		(at 67.31 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "f1dac1df-e33b-4bcb-bc40-b7e8bb593abf")
 	)
 	(label "HDMI0_SDA"
 		(at 152.4 154.94 0)

@@ -9,9 +9,12 @@
   * https://ww1.microchip.com/downloads/en/Appnotes/VPPD-01740.pdf
   * Parts really big!!!
   * The old one was just 100 ethernet
+  * make sure i have the right pinout for ethernet.
+    * Top row is positive
+  * I need cap's for the ground
 * led's didn't work as intended
   * Makes sense since i thought those pins pushed power.  But they were just pull downs
-* Mounting holes are fairly larger then they need to be
+* Mounting holes for the wire's "ethernet/toslink" are fairly larger then they need to be
 
 
 
