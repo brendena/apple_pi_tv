@@ -46,3 +46,5 @@ fp-info-cache
 # generated
 *.drl
 *.gbr
+
+board/apple_pi_tv_board-backups
