@@ -48,3 +48,4 @@ fp-info-cache
 *.gbr
 
 board/apple_pi_tv_board-backups
+board/production
