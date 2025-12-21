@@ -9869,7 +9869,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1k"
 			(at 68.58 52.07 90)
 			(effects
 				(font
@@ -11073,7 +11073,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1k"
 			(at 125.73 175.26 90)
 			(effects
 				(font
