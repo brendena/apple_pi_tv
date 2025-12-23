@@ -1442,10 +1442,10 @@
 		(uuid "20de6008-fa9a-4fec-a88f-89c5a5c81cb3")
 	)
 	(junction
-		(at 88.9 95.25)
+		(at 88.9 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "331175d5-98f5-456e-808b-0c078caa9015")
+		(uuid "225c4af0-429d-4890-9214-f47073a9180a")
 	)
 	(junction
 		(at 88.9 102.87)
@@ -1472,6 +1472,12 @@
 		(uuid "6d2d2c54-0bbd-42a9-a54c-5a41209ff244")
 	)
 	(junction
+		(at 88.9 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6d399584-1104-4204-9d63-d1b2c916ffc8")
+	)
+	(junction
 		(at 132.08 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1496,22 +1502,10 @@
 		(uuid "d6a1c1a8-c63d-4580-971f-464c6a9a96ad")
 	)
 	(junction
-		(at 88.9 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e52346dc-d0e0-4e67-b6a4-9024acee0df7")
-	)
-	(junction
 		(at 127 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fa428ae9-39a3-406a-9cdb-e9ace4f014d1")
-	)
-	(junction
-		(at 88.9 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fcb7e43b-888a-40c0-9fe8-c4eb16e24f43")
 	)
 	(no_connect
 		(at 146.05 99.06)
@@ -1559,6 +1553,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 92.71) (xy 121.92 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07b07eed-0826-4195-9f1d-8a1278110208")
+	)
+	(wire
+		(pts
 			(xy 127 92.71) (xy 127 95.25)
 		)
 		(stroke
@@ -1576,16 +1580,6 @@
 			(type default)
 		)
 		(uuid "18e6c06a-ee37-4ffe-a589-c89ff0c5b4d2")
-	)
-	(wire
-		(pts
-			(xy 110.49 102.87) (xy 110.49 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e8648b6-14d5-4cd7-83d2-a872469cc6a5")
 	)
 	(wire
 		(pts
@@ -1616,6 +1610,16 @@
 			(type default)
 		)
 		(uuid "27c89b7d-0f9e-4e45-907d-60fe19850246")
+	)
+	(wire
+		(pts
+			(xy 88.9 97.79) (xy 88.9 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32e5a980-deab-4529-9da3-c059aed577f7")
 	)
 	(wire
 		(pts
@@ -1679,6 +1683,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 100.33) (xy 88.9 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e9938e0-9470-4bf6-84ed-86c1eae766a5")
+	)
+	(wire
+		(pts
 			(xy 143.51 93.98) (xy 143.51 86.36)
 		)
 		(stroke
@@ -1696,16 +1710,6 @@
 			(type default)
 		)
 		(uuid "53d3983b-f280-4e7b-a039-9d79a0ef62e8")
-	)
-	(wire
-		(pts
-			(xy 110.49 92.71) (xy 121.92 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "55a4b9c4-9adf-4f3e-a047-ca9dc3a81675")
 	)
 	(wire
 		(pts
@@ -1736,16 +1740,6 @@
 			(type default)
 		)
 		(uuid "5be43d06-1c22-471a-8370-1a2bd673b9cd")
-	)
-	(wire
-		(pts
-			(xy 88.9 86.36) (xy 88.9 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "67a9b512-efa6-446d-a121-8bed42f83e93")
 	)
 	(wire
 		(pts
@@ -1786,16 +1780,6 @@
 			(type default)
 		)
 		(uuid "7dd0221c-8940-4c86-81fd-5a24463ce625")
-	)
-	(wire
-		(pts
-			(xy 88.9 97.79) (xy 88.9 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7edf1904-6c32-4bdc-90f5-ef4571da8fd6")
 	)
 	(wire
 		(pts
@@ -1889,6 +1873,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 107.95) (xy 88.9 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1818b8a-ef37-421e-9192-00597d549d02")
+	)
+	(wire
+		(pts
 			(xy 143.51 104.14) (xy 143.51 106.68)
 		)
 		(stroke
@@ -1899,16 +1893,6 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 100.33) (xy 88.9 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b5a6b60f-f814-42c8-8f8f-7f7dd838ca0d")
-	)
-	(wire
-		(pts
 			(xy 138.43 93.98) (xy 143.51 93.98)
 		)
 		(stroke
@@ -1916,16 +1900,6 @@
 			(type default)
 		)
 		(uuid "bcb95018-bd47-4440-b268-2576174db0d3")
-	)
-	(wire
-		(pts
-			(xy 88.9 102.87) (xy 110.49 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bce7ca6e-7ddb-4bdf-85de-b00fdac4a064")
 	)
 	(wire
 		(pts
@@ -3869,7 +3843,7 @@
 	)
 	(symbol
 		(lib_id "WIreless_Receiver_with_QI_Charging-rescue:GND-power")
-		(at 88.9 86.36 180)
+		(at 88.9 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3877,7 +3851,7 @@
 		(dnp no)
 		(uuid "ff7964d4-5bc0-41cd-b630-a3f12bd9fc56")
 		(property "Reference" "#PWR017"
-			(at 88.9 80.01 0)
+			(at 88.9 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3886,7 +3860,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 88.9 82.55 0)
+			(at 88.9 118.11 0)
 			(effects
 				(font
 					(size 0.7874 0.7874)
@@ -3894,7 +3868,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 88.9 86.36 0)
+			(at 88.9 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3903,7 +3877,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 86.36 0)
+			(at 88.9 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3912,7 +3886,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 88.9 86.36 0)
+			(at 88.9 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
