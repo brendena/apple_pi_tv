@@ -1,3 +1,29 @@
+# Version 0.4
+
+* (schematic) raspberry pi uart route to debug header
+* (schematic) change pico's uart to a different uart output
+* (schematic) LED way to bright
+* removed the HDMI enable.  Were never going to not have it
+* the hole near hdmi is has different spacing between apple tv V2,V3
+* fix footprint to toss link, 
+  * see if the part is different between v2 and v3 
+* LED holder for front LED wrong
+* (schematic) Fix power input to pi
+  * currently i need to set it to 4.7 V to get it to work
+  * see if it's the PG pin
+* (recheck) Move IR sensor.
+  * make sure it works with both V2, V3
+* (schematic) HID i2c needs a irq line
+* (schematic) Add i2c lines for HID device
+  * Add pull up resisters
+* (finished) SD card semi boots
+  * moved D2 under
+  * Compute board doesn't have any resistor on line
+  * (future) would be helpful to have uart to see what's going wrong
+* (schematic) add i2S lines
+  * check to see if the order makes difference in the pio block
+    * i don't think these matters because were just receiving data.  Not sending i2s data
+
 # Version 0.3
 
 * Input power is swap "done"

@@ -1,0 +1,52 @@
+(footprint "HDGC1202WR-S-02P"
+	(version 20221018)
+	(generator "manual")
+	(layer "F.Cu")
+	(descr "Shenzhen Huade HDGC1202WR-S-02P, MX1.2 series 1.20 mm pitch SMT wafer header, 2 poles, side entry, without sticking point. 50 V AC/DC, 2 A, -40..+105 C, AWG28-30 / OD 0.8 mm max. Generated from drawing A096 rev A0 (2012-12-10), recommended PCB layout, general tolerance +/-0.05 mm. Anchor at pin 1 (KLC F5.3).")
+	(tags "connector MX1.2 1.2mm pitch wire-to-board SMD header Huade HDGC molex-picoblade-alt")
+	(attr smd)
+
+	(fp_text reference "J**" (at 0.6 -1.35) (layer "F.SilkS")
+		(effects (font (size 0.8 0.8) (thickness 0.12)))
+	)
+	(fp_text value "HDGC1202WR-S-02P" (at 0.6 5.1) (layer "F.Fab")
+		(effects (font (size 0.8 0.8) (thickness 0.12)))
+	)
+	(fp_text user "${REFERENCE}" (at 0.6 2.0) (layer "F.Fab")
+		(effects (font (size 0.7 0.7) (thickness 0.105)))
+	)
+
+	(fp_line (start -1.5 -0.125) (end 2.7 -0.125) (stroke (width 0.1) (type solid)) (layer "F.Fab"))
+	(fp_line (start 2.7 -0.125) (end 2.7 4.175) (stroke (width 0.1) (type solid)) (layer "F.Fab"))
+	(fp_line (start 2.7 4.175) (end -1.5 4.175) (stroke (width 0.1) (type solid)) (layer "F.Fab"))
+	(fp_line (start -1.5 4.175) (end -1.5 0.475) (stroke (width 0.1) (type solid)) (layer "F.Fab"))
+	(fp_line (start -1.5 0.475) (end -0.9 -0.125) (stroke (width 0.1) (type solid)) (layer "F.Fab"))
+
+	(fp_line (start -1.61 -0.235) (end -0.41 -0.235) (stroke (width 0.12) (type solid)) (layer "F.SilkS"))
+	(fp_line (start 1.61 -0.235) (end 2.81 -0.235) (stroke (width 0.12) (type solid)) (layer "F.SilkS"))
+	(fp_line (start -1.61 -0.235) (end -1.61 3.265) (stroke (width 0.12) (type solid)) (layer "F.SilkS"))
+	(fp_line (start 2.81 -0.235) (end 2.81 3.265) (stroke (width 0.12) (type solid)) (layer "F.SilkS"))
+	(fp_line (start -1.61 4.285) (end 2.81 4.285) (stroke (width 0.12) (type solid)) (layer "F.SilkS"))
+
+	(fp_poly (pts (xy -0.5 0) (xy -0.9 -0.3) (xy -0.9 0.3))
+		(stroke (width 0.1) (type solid)) (fill solid) (layer "F.SilkS"))
+	(fp_poly (pts (xy -0.3 -0.125) (xy 0.3 -0.125) (xy 0 0.3))
+		(stroke (width 0.1) (type solid)) (fill none) (layer "F.Fab"))
+
+	(fp_line (start -1.75 -0.675) (end 2.95 -0.675) (stroke (width 0.05) (type solid)) (layer "F.CrtYd"))
+	(fp_line (start 2.95 -0.675) (end 2.95 4.425) (stroke (width 0.05) (type solid)) (layer "F.CrtYd"))
+	(fp_line (start 2.95 4.425) (end -1.75 4.425) (stroke (width 0.05) (type solid)) (layer "F.CrtYd"))
+	(fp_line (start -1.75 4.425) (end -1.75 -0.675) (stroke (width 0.05) (type solid)) (layer "F.CrtYd"))
+
+	(pad "1" smd rect (at 0 0) (size 0.6 0.85) (layers "F.Cu" "F.Paste" "F.Mask"))
+	(pad "2" smd rect (at 1.2 0) (size 0.6 0.85) (layers "F.Cu" "F.Paste" "F.Mask"))
+
+	(pad "MP" smd rect (at -1.15 3.775) (size 0.7 0.8) (layers "F.Cu" "F.Paste" "F.Mask"))
+	(pad "MP" smd rect (at 2.35 3.775) (size 0.7 0.8) (layers "F.Cu" "F.Paste" "F.Mask"))
+
+	(model "${KIPRJMOD}/HDGC1202WR-S-02P.step"
+		(offset (xyz 0.6 -2.025 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
+	)
+)

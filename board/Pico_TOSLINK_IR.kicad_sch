@@ -12,25 +12,25 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J"
-				(at -2.5415 5.5913 0)
+			(property "Reference" "J5"
+				(at -1.27 6.096 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
+					(justify left)
 				)
 			)
-			(property "Value" "BM02B-ACHSS-GAN-TF"
-				(at -2.5426 -7.6277 0)
+			(property "Value" "HDGC1202WR-S-2P"
+				(at -3.556 -14.224 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
+					(justify left)
 				)
 			)
-			(property "Footprint" "greencharge-footprints:BM02BSRSSTBLFSN"
+			(property "Footprint" "HDGC:HDGC1202WR-S-02P"
 				(at 0 0 0)
 				(effects
 					(font
@@ -70,8 +70,8 @@
 			)
 			(symbol "BM02B-ACHSS-GAN-TF_0_0"
 				(rectangle
-					(start -2.54 -5.08)
-					(end 2.54 5.08)
+					(start -2.54 5.08)
+					(end 2.54 -10.16)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -109,6 +109,26 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(symbol "BM02B-ACHSS-GAN-TF_1_0"
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 2.54)
+					(name "mp"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "mp"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1532,50 +1552,27 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "marbastlib-various:JTAG_TC2030"
-			(pin_names
-				(offset 1.016)
-			)
+		(symbol "apple_tv_parts:dev_connector"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J"
-				(at -3.81 -6.35 0)
+			(property "Reference" "J2"
+				(at -1.27 15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "JTAG_TC2030"
-				(at -10.16 8.89 0)
+			(property "Value" "Dev_port"
+				(at -1.27 12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Footprint" "marbastlib-various:CON_TC2030_outlined"
-				(at 10.16 1.27 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at -32.385 -13.97 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "6-pin TC2030 connector for JTAG programming"
+			(property "Footprint" "Connector:Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1584,7 +1581,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "JTAG ARM SWD connector tag connect tc 2030"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1593,7 +1590,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "IDC?Header*2x03* Pin?Header*2x03*"
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1602,162 +1599,23 @@
 					(hide yes)
 				)
 			)
-			(symbol "JTAG_TC2030_0_1"
+			(symbol "dev_connector_1_1"
 				(rectangle
-					(start -3.81 7.62)
-					(end 6.35 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -3.048 4.953)
-					(end -3.81 5.207)
+					(start -11.43 10.16)
+					(end 8.89 -3.81)
 					(stroke
 						(width 0)
-						(type default)
+						(type solid)
 					)
 					(fill
-						(type none)
+						(type color)
+						(color 255 255 194 1)
 					)
 				)
-				(rectangle
-					(start -3.048 2.413)
-					(end -3.81 2.667)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -3.048 -0.127)
-					(end -3.81 0.127)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -3.048 -2.667)
-					(end -3.81 -2.413)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 4.953 6.858)
-					(end 5.207 7.62)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 4.953 -5.08)
-					(end 5.207 -4.318)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "JTAG_TC2030_1_1"
-				(pin passive line
-					(at -6.35 5.08 0)
+				(pin output line
+					(at -11.43 7.62 0)
 					(length 2.54)
-					(name "SWDIO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -6.35 2.54 0)
-					(length 2.54)
-					(name "~{RST}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -6.35 0 0)
-					(length 2.54)
-					(name "SWCLK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -6.35 -2.54 0)
-					(length 2.54)
-					(name "SWO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 10.16 270)
-					(length 2.54)
-					(name "VCC"
+					(name "SWD"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1772,8 +1630,80 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 5.08 -7.62 90)
+				(pin output line
+					(at -11.43 5.08 0)
+					(length 2.54)
+					(name "SWCLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -11.43 2.54 0)
+					(length 2.54)
+					(name "RST"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 8.89 2.54 180)
+					(length 2.54)
+					(name "Pico_Tx"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 8.89 0 180)
+					(length 2.54)
+					(name "Pi_Tx"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 8.89 -2.54 180)
 					(length 2.54)
 					(name "GND"
 						(effects
@@ -1782,7 +1712,7 @@
 							)
 						)
 					)
-					(number "5"
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3375,7 +3305,7 @@
 		)
 		(uuid "9d93c5e2-a7a5-46d4-ad0e-51ee5929c9ea")
 	)
-	(text "LED\n"
+	(text "Case \nLED\n"
 		(exclude_from_sim no)
 		(at 225.298 51.054 0)
 		(effects
@@ -3401,6 +3331,66 @@
 			(justify left bottom)
 		)
 		(uuid "fe9c8846-fab9-478b-938e-7088388249a4")
+	)
+	(text_box "i2c0\n"
+		(exclude_from_sim no)
+		(at 176.53 109.22 0)
+		(size 7.62 3.81)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "14dc5eea-5b51-41f8-8cd6-8a5d95d0db59")
+	)
+	(text_box "i2c1\n"
+		(exclude_from_sim no)
+		(at 177.8 72.39 0)
+		(size 7.62 3.81)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "6de0af14-f150-417b-b768-18fd27da0eee")
+	)
+	(text_box "uart0"
+		(exclude_from_sim no)
+		(at 182.88 63.5 0)
+		(size 7.62 3.81)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "d09219f9-f4c7-43b0-af51-e183b0a73996")
 	)
 	(junction
 		(at 182.88 38.1)
@@ -3631,6 +3621,12 @@
 		(uuid "d1a927e5-74e8-405d-a308-d223eee7f5d4")
 	)
 	(junction
+		(at 168.91 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dd9c4b3e-f803-45c0-9b7c-71fcbb2d82d2")
+	)
+	(junction
 		(at 123.19 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3653,6 +3649,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e1ff2a61-0c03-4522-8490-8d19efda7916")
+	)
+	(junction
+		(at 163.83 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e7582b5e-4e0f-44c2-ba50-bc37e03cbca1")
 	)
 	(junction
 		(at 147.32 30.48)
@@ -3685,10 +3687,6 @@
 		(uuid "f9d75efb-b22e-4e0a-9f9a-fb6be2fe849b")
 	)
 	(no_connect
-		(at 156.21 91.44)
-		(uuid "03060672-168b-4f63-81eb-edf269f72cb2")
-	)
-	(no_connect
 		(at 275.59 85.09)
 		(uuid "099b756e-98c7-4597-bb4b-566ff458cd32")
 	)
@@ -3713,10 +3711,6 @@
 		(uuid "2c3a1af8-df18-4892-b539-23acb8c35bdd")
 	)
 	(no_connect
-		(at 156.21 86.36)
-		(uuid "2ccf3178-b39f-458c-8c01-591446918d60")
-	)
-	(no_connect
 		(at 156.21 109.22)
 		(uuid "3da68d0a-bdc8-4f32-8dad-3ddbf09b9ec5")
 	)
@@ -3731,10 +3725,6 @@
 	(no_connect
 		(at 275.59 87.63)
 		(uuid "4e050eef-da32-4eb4-9b56-ba072f84a84d")
-	)
-	(no_connect
-		(at 156.21 114.3)
-		(uuid "53ab1950-5d5f-4a4a-9f82-f78a2e5e0946")
 	)
 	(no_connect
 		(at 156.21 121.92)
@@ -3785,10 +3775,6 @@
 		(uuid "9ccb0f9a-3fe5-4c28-8188-d8f1cdb20a47")
 	)
 	(no_connect
-		(at 156.21 83.82)
-		(uuid "a2025b86-a98a-49c3-b16e-10e2dabe5167")
-	)
-	(no_connect
 		(at 156.21 96.52)
 		(uuid "ab18ae34-946d-477d-96dd-480fa2fc520c")
 	)
@@ -3801,10 +3787,6 @@
 		(uuid "b2defd83-2da1-4e8b-8b5d-5e6c18863b33")
 	)
 	(no_connect
-		(at 36.83 179.07)
-		(uuid "b5dd60fb-f336-427a-a3f1-f750f76c42ca")
-	)
-	(no_connect
 		(at 156.21 132.08)
 		(uuid "b7d76321-b442-4a6f-98b0-a6f9b44e4af6")
 	)
@@ -3813,20 +3795,8 @@
 		(uuid "b8be869d-9d38-44f5-b31b-12dcd918857e")
 	)
 	(no_connect
-		(at 48.26 166.37)
-		(uuid "bbd58ea7-036a-4085-9d26-5ed4907bbee5")
-	)
-	(no_connect
 		(at 275.59 80.01)
 		(uuid "ca90dd6d-05fa-4d27-820f-920ab5de860b")
-	)
-	(no_connect
-		(at 156.21 88.9)
-		(uuid "d81d008c-f0b4-4352-8d1b-2e86a5779c92")
-	)
-	(no_connect
-		(at 156.21 116.84)
-		(uuid "d8f219be-888b-4e2c-8973-5e8693787cad")
 	)
 	(no_connect
 		(at 93.98 83.82)
@@ -3867,6 +3837,16 @@
 			(type default)
 		)
 		(uuid "01c798b3-6078-402e-bef1-740fdd33274c")
+	)
+	(wire
+		(pts
+			(xy 76.2 176.53) (xy 69.85 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "028c8383-a62a-42a2-9c96-76bfe4cfc5bf")
 	)
 	(wire
 		(pts
@@ -4040,16 +4020,6 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 57.15) (xy 194.31 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b35738e-f67f-41df-8f41-76b352bac88e")
-	)
-	(wire
-		(pts
 			(xy 140.97 41.91) (xy 140.97 44.45)
 		)
 		(stroke
@@ -4157,16 +4127,6 @@
 			(type default)
 		)
 		(uuid "283d9037-1f09-459f-882f-98f0457b4618")
-	)
-	(wire
-		(pts
-			(xy 27.94 173.99) (xy 36.83 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "29720e18-2758-42ce-b3e1-019f6f8e6f82")
 	)
 	(wire
 		(pts
@@ -4300,16 +4260,6 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 171.45) (xy 36.83 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3dbdfd37-57ea-4fdf-a798-0581ede861d5")
-	)
-	(wire
-		(pts
 			(xy 182.88 38.1) (xy 175.26 38.1)
 		)
 		(stroke
@@ -4337,6 +4287,16 @@
 			(type default)
 		)
 		(uuid "4014f27d-6a21-4652-85dd-113898a70e49")
+	)
+	(wire
+		(pts
+			(xy 163.83 74.93) (xy 163.83 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40f5c75e-2c9f-4734-a8a7-59f158b05324")
 	)
 	(wire
 		(pts
@@ -4370,16 +4330,6 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 105.41) (xy 180.34 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4fdbd840-5e7d-467c-bdce-0abdae8dddac")
-	)
-	(wire
-		(pts
 			(xy 200.66 127) (xy 200.66 134.62)
 		)
 		(stroke
@@ -4397,6 +4347,16 @@
 			(type default)
 		)
 		(uuid "51b0351e-ded6-444a-8ebc-0f5aa5db148e")
+	)
+	(wire
+		(pts
+			(xy 156.21 114.3) (xy 175.26 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52915122-1cc8-4267-bbf9-3a77320937b7")
 	)
 	(wire
 		(pts
@@ -4437,6 +4397,16 @@
 			(type default)
 		)
 		(uuid "548af8ce-dc02-41e6-b33d-18696abd57dc")
+	)
+	(wire
+		(pts
+			(xy 39.37 171.45) (xy 49.53 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58021d78-f8cb-46be-8ce4-825095c745a7")
 	)
 	(wire
 		(pts
@@ -4487,6 +4457,16 @@
 			(type default)
 		)
 		(uuid "5f8a1131-e7c5-4a22-97e5-980b518042b7")
+	)
+	(wire
+		(pts
+			(xy 69.85 181.61) (xy 72.39 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61d8bacc-b6cc-4552-ac83-833167de9910")
 	)
 	(wire
 		(pts
@@ -4627,6 +4607,16 @@
 			(type default)
 		)
 		(uuid "734f1813-4b3c-4655-a693-d1668ca4ac74")
+	)
+	(wire
+		(pts
+			(xy 156.21 116.84) (xy 175.26 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73e0b993-2a96-4ad4-aab2-80f5683c636c")
 	)
 	(wire
 		(pts
@@ -4930,7 +4920,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 81.28) (xy 171.45 81.28)
+			(xy 156.21 81.28) (xy 163.83 81.28)
 		)
 		(stroke
 			(width 0)
@@ -5030,13 +5020,13 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 105.41) (xy 180.34 105.41)
+			(xy 40.64 173.99) (xy 49.53 173.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "af75cd4f-7c4d-4df7-8cfd-04ad97153a82")
+		(uuid "b2aad959-2f28-4eb3-8e0d-cc96f1d75056")
 	)
 	(wire
 		(pts
@@ -5160,16 +5150,6 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 85.09) (xy 194.31 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c0f339b0-d7c3-4233-b917-e3ced670eaee")
-	)
-	(wire
-		(pts
 			(xy 104.14 27.94) (xy 92.71 27.94)
 		)
 		(stroke
@@ -5197,6 +5177,16 @@
 			(type default)
 		)
 		(uuid "c2a9cb58-2dc6-4939-a7dd-39a5fd2a3247")
+	)
+	(wire
+		(pts
+			(xy 163.83 81.28) (xy 171.45 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c72bee4d-3832-4e54-a55b-76f0b847d784")
 	)
 	(wire
 		(pts
@@ -5250,33 +5240,23 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 57.15) (xy 218.44 57.15)
+			(xy 156.21 91.44) (xy 172.72 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ce96e93a-af7c-4dc2-b641-5241d906fb11")
+		(uuid "ce377df0-ee3e-495f-a0e6-68157c58c3d1")
 	)
 	(wire
 		(pts
-			(xy 162.56 105.41) (xy 162.56 111.76)
+			(xy 76.2 179.07) (xy 69.85 179.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cec44b86-5d7a-4419-a125-578ed4417c5a")
-	)
-	(wire
-		(pts
-			(xy 30.48 176.53) (xy 36.83 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cf46502f-ba10-45c4-ae7c-b8f15df365ce")
+		(uuid "ce4e0f72-7df4-49a2-b901-77d4a8d7679d")
 	)
 	(wire
 		(pts
@@ -5320,6 +5300,26 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 88.9) (xy 171.45 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d89542c6-5174-4469-b103-0f696622a9e4")
+	)
+	(wire
+		(pts
+			(xy 156.21 83.82) (xy 171.45 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8b46c78-05e9-458e-aea0-0901fcdf3c0c")
+	)
+	(wire
+		(pts
 			(xy 35.56 101.6) (xy 35.56 104.14)
 		)
 		(stroke
@@ -5327,6 +5327,16 @@
 			(type default)
 		)
 		(uuid "d8d77bce-e9df-46de-995b-e7e8be3d391c")
+	)
+	(wire
+		(pts
+			(xy 168.91 78.74) (xy 171.45 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d92dca37-458d-4784-ac87-120dc137f53f")
 	)
 	(wire
 		(pts
@@ -5357,6 +5367,16 @@
 			(type default)
 		)
 		(uuid "dbd52d1f-645d-4566-b632-f4223c5cb582")
+	)
+	(wire
+		(pts
+			(xy 156.21 86.36) (xy 171.45 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcd2164c-4bd3-41ad-abd9-db46a75065c5")
 	)
 	(wire
 		(pts
@@ -5397,6 +5417,16 @@
 			(type default)
 		)
 		(uuid "e7e52743-acec-4bcd-8bdb-8fd7dce8605b")
+	)
+	(wire
+		(pts
+			(xy 168.91 72.39) (xy 168.91 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e96d6002-e26c-4475-95db-7d8b6dcfde2d")
 	)
 	(wire
 		(pts
@@ -5490,6 +5520,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 57.15) (xy 218.44 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4e44b71-b031-4095-ae14-911126cbd116")
+	)
+	(wire
+		(pts
 			(xy 82.55 55.88) (xy 82.55 44.45)
 		)
 		(stroke
@@ -5560,23 +5600,23 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 184.15) (xy 48.26 186.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd840dde-4f89-4c8e-92ed-12a5bc01ed2e")
-	)
-	(wire
-		(pts
-			(xy 156.21 78.74) (xy 171.45 78.74)
+			(xy 156.21 78.74) (xy 168.91 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "fd9121d0-c376-4b59-8aa8-da75f6f8eb4b")
+	)
+	(wire
+		(pts
+			(xy 40.64 176.53) (xy 49.53 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe8cdbbf-62c3-4c6f-97aa-c4ed2220b950")
 	)
 	(wire
 		(pts
@@ -5639,14 +5679,14 @@
 		(uuid "36940cf8-6e27-4278-9e60-b10e0ec1b442")
 	)
 	(label "~{RESET}"
-		(at 27.94 173.99 0)
+		(at 40.64 176.53 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "44d02490-b439-421c-a3a7-3bb203d63e69")
+		(uuid "3e7ebf92-c5f0-441b-8660-4c42053b4307")
 	)
 	(label "PICO_LED"
 		(at 156.21 127 0)
@@ -5678,6 +5718,16 @@
 		)
 		(uuid "630fc75e-c9d7-46bf-adfd-b9c281c30716")
 	)
+	(label "Pico_blinky"
+		(at 162.56 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "89037c7f-9cbb-408b-b943-246d971f23ba")
+	)
 	(label "~{RESET}"
 		(at 74.93 109.22 180)
 		(effects
@@ -5697,6 +5747,16 @@
 			(justify right bottom)
 		)
 		(uuid "beaceca6-dd8d-41b3-8b3a-dba3e9a616aa")
+	)
+	(label "Pico_blinky"
+		(at 208.28 57.15 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c173fb8e-18ce-4d9c-86c1-a9d6e85f6ee9")
 	)
 	(label "PICO_LED"
 		(at 116.84 179.07 180)
@@ -5719,20 +5779,9 @@
 		)
 		(uuid "e3efc783-bc6b-4f27-95db-dd6e8fcafbf5")
 	)
-	(hierarchical_label "SWCLK"
+	(hierarchical_label "I2S_DOUT"
 		(shape input)
-		(at 30.48 176.53 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "371cfd0a-74f5-4627-aefd-c82cd5d2e8a6")
-	)
-	(hierarchical_label "Pico_scl"
-		(shape input)
-		(at 171.45 81.28 0)
+		(at 171.45 88.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5740,7 +5789,101 @@
 			)
 			(justify left)
 		)
-		(uuid "5b708a23-247d-4aa5-ab5a-a4f78b5d23f9")
+		(uuid "02576d30-e556-4131-a8dc-c4e2727d5178")
+	)
+	(hierarchical_label "Pico_tx"
+		(shape input)
+		(at 76.2 176.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "119aa888-90dc-48e3-9ebb-c17d705e22c2")
+	)
+	(hierarchical_label "SWCLK"
+		(shape input)
+		(at 40.64 173.99 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "19d2cb1e-bf88-4e31-bb62-793dc6718477")
+	)
+	(hierarchical_label "I2S_LRCLK"
+		(shape input)
+		(at 171.45 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "1ef547ce-7f6c-4a7d-bc47-15aee0c23900")
+	)
+	(hierarchical_label "Pico_sda"
+		(shape input)
+		(at 175.26 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "30f02853-8d3d-42cf-858f-3ab4ffa3268e")
+	)
+	(hierarchical_label "SWD"
+		(shape input)
+		(at 39.37 171.45 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "353b6e66-68f2-4885-9b52-9927e6fe22bc")
+	)
+	(hierarchical_label "Pi_tx"
+		(shape input)
+		(at 76.2 179.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "462a0fba-d822-4a83-85c2-5ddfd626693b")
+	)
+	(hierarchical_label "PI_eeprom_sda"
+		(shape input)
+		(at 171.45 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "4c1662b3-e6e1-4269-adc1-e2cbd387b733")
+	)
+	(hierarchical_label "pico_hid_irq"
+		(shape input)
+		(at 172.72 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "62c6f3ae-2ba0-4a6f-9af1-d0046ec2b494")
 	)
 	(hierarchical_label "Pico_rx"
 		(shape input)
@@ -5754,9 +5897,9 @@
 		)
 		(uuid "6f65f542-c27e-404f-9161-c02d2c3b84de")
 	)
-	(hierarchical_label "Pico_sda"
+	(hierarchical_label "PI_eeprom_scl"
 		(shape input)
-		(at 171.45 78.74 0)
+		(at 171.45 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5764,18 +5907,31 @@
 			)
 			(justify left)
 		)
-		(uuid "8a23ece3-1104-4c6f-b076-b805e5c0be48")
+		(uuid "9a79e8fa-f1b0-4cbf-9579-613e2b31ac0a")
 	)
-	(hierarchical_label "SWD"
+	(hierarchical_label "Pico_scl"
 		(shape input)
-		(at 26.67 171.45 180)
+		(at 175.26 116.84 0)
 		(effects
 			(font
 				(size 1.27 1.27)
+				(bold yes)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "ab86d78d-624a-4b3d-9987-7ddcd7383157")
+		(uuid "aab184e2-2afa-4250-877c-aa539a35b6e7")
+	)
+	(hierarchical_label "I2S_clk"
+		(shape input)
+		(at 171.45 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "c2c28f94-d44b-4f90-bc4b-63c5e1e05d1e")
 	)
 	(hierarchical_label "Pico_tx"
 		(shape input)
@@ -5884,7 +6040,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470R"
+		(property "Value" "10K R"
 			(at 121.158 180.848 90)
 			(effects
 				(font
@@ -6014,7 +6170,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 48.26 186.69 0)
+		(at 72.39 181.61 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6022,7 +6178,7 @@
 		(dnp no)
 		(uuid "0f20e1af-c246-4535-b162-20b988f6660c")
 		(property "Reference" "#PWR048"
-			(at 48.26 193.04 0)
+			(at 78.74 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6031,7 +6187,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 48.26 189.992 0)
+			(at 75.692 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6039,7 +6195,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 48.26 186.69 0)
+			(at 72.39 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6048,7 +6204,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 48.26 186.69 0)
+			(at 72.39 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6057,7 +6213,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 48.26 186.69 0)
+			(at 72.39 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6096,7 +6252,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 182.88 118.618 0)
+			(at 185.674 120.904 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6202,6 +6358,75 @@
 			(project "apple_pi_tv_board"
 				(path "/391fcf0b-b604-4ad0-921e-8f3dad9a49eb/ffa30f6a-e405-44ad-a0eb-1eb85feaca3b"
 					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 163.83 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "17825824-bd9f-4a04-bcd1-bd5011e519d8")
+		(property "Reference" "R19"
+			(at 159.766 75.692 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220R"
+			(at 159.766 74.168 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 163.83 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 163.83 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 163.83 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "25036725-4c8e-4710-978e-3346ddc6aeb4")
+		)
+		(pin "1"
+			(uuid "7d4d1cbf-8374-4f17-9eee-16bc3b69075f")
+		)
+		(instances
+			(project "apple_pi_tv_board"
+				(path "/391fcf0b-b604-4ad0-921e-8f3dad9a49eb/ffa30f6a-e405-44ad-a0eb-1eb85feaca3b"
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -7147,6 +7372,71 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 228.6 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "61b833f6-0590-4b64-9fdb-fbcfcd94f697")
+		(property "Reference" "#PWR066"
+			(at 228.6 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 228.6 70.612 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 228.6 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 228.6 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bb8e5b5b-24f0-43cd-8997-54f458d2077d")
+		)
+		(instances
+			(project "apple_pi_tv_board"
+				(path "/391fcf0b-b604-4ad0-921e-8f3dad9a49eb/ffa30f6a-e405-44ad-a0eb-1eb85feaca3b"
+					(reference "#PWR066")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 85.09 36.83 0)
 		(mirror y)
 		(unit 1)
@@ -7348,7 +7638,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "70e0d5b4-6269-4320-a693-b4c3f1af3063")
 		(property "Reference" "U2"
 			(at 217.17 90.424 0)
@@ -7411,6 +7701,71 @@
 			(project "apple_pi_tv_board"
 				(path "/391fcf0b-b604-4ad0-921e-8f3dad9a49eb/ffa30f6a-e405-44ad-a0eb-1eb85feaca3b"
 					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 168.91 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "712faaa6-8933-4e91-9349-0f7766a6a463")
+		(property "Reference" "#PWR065"
+			(at 168.91 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 168.91 69.088 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 168.91 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 168.91 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fdde5cd3-f850-4faa-9b0d-10c0192ed644")
+		)
+		(instances
+			(project "apple_pi_tv_board"
+				(path "/391fcf0b-b604-4ad0-921e-8f3dad9a49eb/ffa30f6a-e405-44ad-a0eb-1eb85feaca3b"
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -7851,8 +8206,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BM02B-ACHSS-GAN-TF"
-			(at 230.632 65.786 0)
+		(property "Value" "HDGC1202WR-S-2P"
+			(at 230.124 73.914 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7860,7 +8215,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "greencharge-footprints:BM02BSRSSTBLFSN"
+		(property "Footprint" "HDGC:HDGC1202WR-S-02P"
 			(at 233.68 59.69 0)
 			(effects
 				(font
@@ -7903,6 +8258,9 @@
 		)
 		(pin "2"
 			(uuid "e24a57fc-31d0-4a48-a20c-0f09caf1a69b")
+		)
+		(pin "mp"
+			(uuid "537068ec-583f-42b3-bc60-f1a5b20ea67b")
 		)
 		(instances
 			(project ""
@@ -7992,6 +8350,71 @@
 			(project "apple_pi_tv_board"
 				(path "/391fcf0b-b604-4ad0-921e-8f3dad9a49eb/ffa30f6a-e405-44ad-a0eb-1eb85feaca3b"
 					(reference "Y1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 163.83 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "81e050f9-378e-4685-a393-c04b73c7d108")
+		(property "Reference" "#PWR064"
+			(at 163.83 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 163.576 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.83 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 163.83 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eafc84c8-c72f-41d8-8916-93e12ca93460")
+		)
+		(instances
+			(project "apple_pi_tv_board"
+				(path "/391fcf0b-b604-4ad0-921e-8f3dad9a49eb/ffa30f6a-e405-44ad-a0eb-1eb85feaca3b"
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -9224,6 +9647,86 @@
 		)
 	)
 	(symbol
+		(lib_id "apple_tv_parts:dev_connector")
+		(at 60.96 179.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c60c0ce4-261a-40c9-b7b3-7ffad5deb8d0")
+		(property "Reference" "J2"
+			(at 59.69 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Dev_port"
+			(at 59.69 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector:Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical"
+			(at 60.96 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 60.96 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "5667862d-954c-4047-9983-fe99ff0e6f8c")
+		)
+		(pin "6"
+			(uuid "348503a7-215b-433b-83db-ffc27fbd8049")
+		)
+		(pin "4"
+			(uuid "aa56dfb4-ab98-4c2f-92b9-e2ce19b3b185")
+		)
+		(pin "2"
+			(uuid "acdd9e8c-ebd0-47a0-a8ef-6c917cde6630")
+		)
+		(pin "1"
+			(uuid "1b841608-4116-43a7-86be-118518576f58")
+		)
+		(pin "3"
+			(uuid "13774f20-8ab2-4a6f-bde6-da76485fe9ab")
+		)
+		(instances
+			(project ""
+				(path "/391fcf0b-b604-4ad0-921e-8f3dad9a49eb/ffa30f6a-e405-44ad-a0eb-1eb85feaca3b"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 220.98 57.15 90)
 		(unit 1)
@@ -9914,6 +10417,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 168.91 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ed21beb3-ef95-461a-98f9-44f93e463837")
+		(property "Reference" "R18"
+			(at 170.18 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220R"
+			(at 170.18 72.136 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 168.91 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 168.91 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 168.91 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "144ec981-61a1-430f-aa34-7c9d089fb65c")
+		)
+		(pin "1"
+			(uuid "57ebaf67-836a-4fdd-b122-2d4572d01c9e")
+		)
+		(instances
+			(project "apple_pi_tv_board"
+				(path "/391fcf0b-b604-4ad0-921e-8f3dad9a49eb/ffa30f6a-e405-44ad-a0eb-1eb85feaca3b"
+					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+1V1")
 		(at 46.99 52.07 0)
 		(unit 1)
@@ -10042,87 +10614,6 @@
 			(project "apple_pi_tv_board"
 				(path "/391fcf0b-b604-4ad0-921e-8f3dad9a49eb/ffa30f6a-e405-44ad-a0eb-1eb85feaca3b"
 					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "marbastlib-various:JTAG_TC2030")
-		(at 43.18 176.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "fb0199af-9441-4c18-bc58-60e31d663d0f")
-		(property "Reference" "J4"
-			(at 50.4698 173.9899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "JTAG_TC2030"
-			(at 34.036 182.626 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector:Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical"
-			(at 53.34 175.26 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" " ~"
-			(at 10.795 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 43.18 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ccec6393-67c1-4989-a292-ae56cb5afc94")
-		)
-		(pin "2"
-			(uuid "6e79a693-c9ff-4a08-bab3-f225465ed95b")
-		)
-		(pin "3"
-			(uuid "2e7f35e2-cfd0-49ba-8980-ce597518afb2")
-		)
-		(pin "4"
-			(uuid "b5b8832f-8859-4727-908e-5584435270eb")
-		)
-		(pin "5"
-			(uuid "487b33a7-ff09-4054-88b4-eee66b80f66e")
-		)
-		(pin "6"
-			(uuid "1bd89891-d71d-40a3-b700-700b7ccd520e")
-		)
-		(instances
-			(project "apple_pi_tv_board"
-				(path "/391fcf0b-b604-4ad0-921e-8f3dad9a49eb/ffa30f6a-e405-44ad-a0eb-1eb85feaca3b"
-					(reference "J4")
 					(unit 1)
 				)
 			)

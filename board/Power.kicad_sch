@@ -1436,12 +1436,6 @@
 		(uuid "1e700c41-01f1-4887-92e2-84250997661a")
 	)
 	(junction
-		(at 198.12 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "20de6008-fa9a-4fec-a88f-89c5a5c81cb3")
-	)
-	(junction
 		(at 88.9 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1466,6 +1460,12 @@
 		(uuid "57a6665b-2a26-4ceb-8179-eed33411b7df")
 	)
 	(junction
+		(at 198.12 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6097275e-0f23-4768-9a82-9a208a9a83b5")
+	)
+	(junction
 		(at 143.51 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1476,6 +1476,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6d399584-1104-4204-9d63-d1b2c916ffc8")
+	)
+	(junction
+		(at 194.31 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "83ed0ba2-9c00-475e-97da-03bf21799c07")
+	)
+	(junction
+		(at 198.12 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9623a808-56c6-4868-b417-83bb20945292")
 	)
 	(junction
 		(at 132.08 100.33)
@@ -1496,6 +1508,18 @@
 		(uuid "a5e74af3-9c07-41db-9ef8-bc93b1e1c72c")
 	)
 	(junction
+		(at 201.93 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a991b60e-15b7-4d9d-9160-715188954e57")
+	)
+	(junction
+		(at 190.5 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "af57cf3c-fda4-4cb7-881e-149441c9a7d2")
+	)
+	(junction
 		(at 121.92 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1513,7 +1537,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 88.9) (xy 198.12 96.52)
+			(xy 209.55 88.9) (xy 209.55 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1663,6 +1687,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 104.14) (xy 198.12 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "485b083e-2ecf-4507-a8b7-177596160299")
+	)
+	(wire
+		(pts
 			(xy 186.69 96.52) (xy 190.5 96.52)
 		)
 		(stroke
@@ -1713,6 +1747,16 @@
 	)
 	(wire
 		(pts
+			(xy 201.93 96.52) (xy 209.55 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53e1f32a-87e0-4d9b-a8c2-89b131dbbee8")
+	)
+	(wire
+		(pts
 			(xy 156.21 86.36) (xy 168.91 86.36)
 		)
 		(stroke
@@ -1723,6 +1767,16 @@
 	)
 	(wire
 		(pts
+			(xy 201.93 104.14) (xy 201.93 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57683fb6-f98f-4ade-833b-8aea3314b85d")
+	)
+	(wire
+		(pts
 			(xy 88.9 102.87) (xy 88.9 105.41)
 		)
 		(stroke
@@ -1730,16 +1784,6 @@
 			(type default)
 		)
 		(uuid "5880a187-f6cb-40a6-b550-267f5dc0e93a")
-	)
-	(wire
-		(pts
-			(xy 194.31 96.52) (xy 198.12 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5be43d06-1c22-471a-8370-1a2bd673b9cd")
 	)
 	(wire
 		(pts
@@ -1763,6 +1807,16 @@
 	)
 	(wire
 		(pts
+			(xy 194.31 104.14) (xy 194.31 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "719e0c1a-38de-483a-a289-ee7a2fdde1e7")
+	)
+	(wire
+		(pts
 			(xy 168.91 86.36) (xy 168.91 93.98)
 		)
 		(stroke
@@ -1773,6 +1827,16 @@
 	)
 	(wire
 		(pts
+			(xy 194.31 96.52) (xy 198.12 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d7835a6-c41e-4915-b2c6-09dcc5e4bc2a")
+	)
+	(wire
+		(pts
 			(xy 88.9 92.71) (xy 88.9 90.17)
 		)
 		(stroke
@@ -1780,6 +1844,26 @@
 			(type default)
 		)
 		(uuid "7dd0221c-8940-4c86-81fd-5a24463ce625")
+	)
+	(wire
+		(pts
+			(xy 201.93 96.52) (xy 201.93 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "817709c0-f674-40aa-92ca-03ea5596d135")
+	)
+	(wire
+		(pts
+			(xy 198.12 104.14) (xy 201.93 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8adec147-cd51-4aa8-89c8-ce1eda725fd4")
 	)
 	(wire
 		(pts
@@ -1843,6 +1927,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 96.52) (xy 198.12 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a75b3180-8ebc-42e9-8d0d-a6aa7680cef7")
+	)
+	(wire
+		(pts
 			(xy 166.37 99.06) (xy 181.61 99.06)
 		)
 		(stroke
@@ -1893,6 +1987,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 96.52) (xy 201.93 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b659eb07-fd24-4fe1-8973-43f85ec1b57d")
+	)
+	(wire
+		(pts
 			(xy 138.43 93.98) (xy 143.51 93.98)
 		)
 		(stroke
@@ -1900,6 +2004,16 @@
 			(type default)
 		)
 		(uuid "bcb95018-bd47-4440-b268-2576174db0d3")
+	)
+	(wire
+		(pts
+			(xy 190.5 104.14) (xy 190.5 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd74e487-1063-49b8-a486-6cad9693449d")
 	)
 	(wire
 		(pts
@@ -1913,13 +2027,13 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 96.52) (xy 198.12 97.79)
+			(xy 190.5 104.14) (xy 190.5 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d1b45b77-ed3e-4dde-8050-43f0211292bc")
+		(uuid "d07c3448-8271-4c9d-b7df-f87e46cc1f80")
 	)
 	(wire
 		(pts
@@ -1940,6 +2054,16 @@
 			(type default)
 		)
 		(uuid "d26a3d10-234d-48c1-a09d-2109c156d664")
+	)
+	(wire
+		(pts
+			(xy 190.5 104.14) (xy 194.31 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d305b18c-6f56-4659-a2b9-9454129fdf1c")
 	)
 	(wire
 		(pts
@@ -1973,6 +2097,16 @@
 	)
 	(wire
 		(pts
+			(xy 194.31 104.14) (xy 198.12 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "daae6327-3228-45e0-a1a1-c39e5ba1485b")
+	)
+	(wire
+		(pts
 			(xy 194.31 96.52) (xy 194.31 97.79)
 		)
 		(stroke
@@ -2000,16 +2134,6 @@
 			(type default)
 		)
 		(uuid "e722f50a-fc1e-4776-ba67-3acd9320ee41")
-	)
-	(wire
-		(pts
-			(xy 190.5 102.87) (xy 190.5 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eab8d9fd-5e2c-4950-8822-67ff90b7b3b6")
 	)
 	(wire
 		(pts
@@ -2530,6 +2654,165 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 194.31 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "421a3aa0-9be8-48cf-88d8-d4517c76b12b")
+		(property "Reference" "C18"
+			(at 194.31 99.06 0)
+			(effects
+				(font
+					(size 0.7874 0.7874)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7u"
+			(at 194.31 101.6 0)
+			(effects
+				(font
+					(size 0.7874 0.7874)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 194.31 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 194.31 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 194.31 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 194.31 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 194.31 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 194.31 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 194.31 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 194.31 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 194.31 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 194.31 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 194.31 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 194.31 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR#" "GRM158R61A226ME15D"
+			(at 194.31 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "48e2c6e7-764c-4e77-9ce0-d9c86ef74e27")
+		)
+		(pin "2"
+			(uuid "cf7ad224-4b8f-4984-b757-05613e6adebd")
+		)
+		(instances
+			(project "apple_pi_tv_board"
+				(path "/391fcf0b-b604-4ad0-921e-8f3dad9a49eb/74fd2a8f-8c47-435d-b882-0da22827ae94"
+					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Regulator_Switching:TPS61230DRC")
 		(at 156.21 99.06 0)
 		(unit 1)
@@ -2930,7 +3213,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 198.12 88.9 0)
+		(at 209.55 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2938,7 +3221,7 @@
 		(dnp no)
 		(uuid "62df807a-f7f4-46bd-a8b5-f12e1e70c0cb")
 		(property "Reference" "#PWR033"
-			(at 198.12 92.71 0)
+			(at 209.55 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2947,7 +3230,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 198.12 85.344 0)
+			(at 209.55 85.344 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2955,7 +3238,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 198.12 88.9 0)
+			(at 209.55 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2964,7 +3247,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 198.12 88.9 0)
+			(at 209.55 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2973,7 +3256,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 198.12 88.9 0)
+			(at 209.55 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2988,6 +3271,165 @@
 			(project "apple_pi_tv_board"
 				(path "/391fcf0b-b604-4ad0-921e-8f3dad9a49eb/74fd2a8f-8c47-435d-b882-0da22827ae94"
 					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 201.93 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7e7f3ecb-fa11-438f-b243-8804f1e2a2cc")
+		(property "Reference" "C33"
+			(at 201.93 99.06 0)
+			(effects
+				(font
+					(size 0.7874 0.7874)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22u"
+			(at 201.93 101.6 0)
+			(effects
+				(font
+					(size 0.7874 0.7874)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 201.93 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 201.93 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 201.93 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 201.93 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 201.93 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 201.93 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 201.93 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 201.93 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 201.93 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 201.93 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 201.93 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 201.93 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR#" "GRM158R61A226ME15D"
+			(at 201.93 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5c0ec31d-7bb2-4343-a1f5-513cb405bfb5")
+		)
+		(pin "2"
+			(uuid "153e4a64-27be-4292-9384-de45ea1b26a8")
+		)
+		(instances
+			(project "apple_pi_tv_board"
+				(path "/391fcf0b-b604-4ad0-921e-8f3dad9a49eb/74fd2a8f-8c47-435d-b882-0da22827ae94"
+					(reference "C33")
 					(unit 1)
 				)
 			)
@@ -3375,6 +3817,165 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
+		(at 198.12 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d276a915-9524-4f34-a3aa-ba97f69b8306")
+		(property "Reference" "C32"
+			(at 198.12 99.06 0)
+			(effects
+				(font
+					(size 0.7874 0.7874)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22u"
+			(at 198.12 101.6 0)
+			(effects
+				(font
+					(size 0.7874 0.7874)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 198.12 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 198.12 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 198.12 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 198.12 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 198.12 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 198.12 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 198.12 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 198.12 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 198.12 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 198.12 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 198.12 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 198.12 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR#" "GRM158R61A226ME15D"
+			(at 198.12 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c7d90dbe-2bd9-4bac-8518-cd8f81ed8a24")
+		)
+		(pin "2"
+			(uuid "12e67e92-5d3a-4ab8-8fcb-524b87c135d0")
+		)
+		(instances
+			(project "apple_pi_tv_board"
+				(path "/391fcf0b-b604-4ad0-921e-8f3dad9a49eb/74fd2a8f-8c47-435d-b882-0da22827ae94"
+					(reference "C32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
 		(at 143.51 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3391,7 +3992,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "8.2n"
+		(property "Value" "8.2nf"
 			(at 143.51 110.49 0)
 			(effects
 				(font

@@ -4,4 +4,6 @@
   (lib (name "MDA4020")(type "KiCad")(uri "${KIPRJMOD}/parts/MDA4020.pretty")(options "")(descr ""))
   (lib (name "H5007NL")(type "KiCad")(uri "${KIPRJMOD}/parts/H5007NL/H5007NL.pretty")(options "")(descr ""))
   (lib (name "MicroSD")(type "KiCad")(uri "${KIPRJMOD}/parts/TF-01A")(options "")(descr ""))
+  (lib (name "Hirose")(type "KiCad")(uri "${KIPRJMOD}/parts/DF40C-100DS-0.4V_51_")(options "")(descr ""))
+  (lib (name "HDGC")(type "KiCad")(uri "${KIPRJMOD}/parts/HDGC1202WR")(options "")(descr ""))
 )

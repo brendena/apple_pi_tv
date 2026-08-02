@@ -1,0 +1,101 @@
+(footprint "ExtendedMountingHole"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "505e521c-dadd-4d2f-a78c-17ebdcf7ce88")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "ExtendedMountingHole"
+		(at 2 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "02c26a35-fc78-49ce-b9d5-a3b6f22dfdd4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2f14503a-d939-4e90-b124-8e0d75b09b34")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a9b09f88-1a29-4a8f-9055-a51bc8a2200a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 0 -0.3)
+		(end 2.7 -0.3)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "7fab58c1-0aa0-42ba-b8b0-bae9e6be30a9")
+	)
+	(fp_circle
+		(center 0 -0.3)
+		(end 2.95 -0.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "252e84dc-ccea-4899-982f-21a9ef328954")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ff32bce7-2579-43f8-a6e8-30a2820f31a6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole oval
+		(at 0 -0.3)
+		(size 6.4 5.4)
+		(drill oval 4.3 2.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(zone_connect 2)
+		(uuid "901ffc7b-36ec-4a68-a1c7-b641410790c5")
+	)
+	(embedded_fonts no)
+)
