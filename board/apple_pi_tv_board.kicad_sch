@@ -13648,7 +13648,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DF40C-100DS-0.4V_51_:HIROSE_DF40C-100DS-0.4V_51_"
+		(property "Footprint" "Hirose:HIROSE_DF40C-100DS-0.4V_51_"
 			(at 185.42 284.48 0)
 			(effects
 				(font
@@ -15001,7 +15001,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DF40C-100DS-0.4V_51_:HIROSE_DF40C-100DS-0.4V_51_"
+		(property "Footprint" "Hirose:HIROSE_DF40C-100DS-0.4V_51_"
 			(at 100.33 280.67 0)
 			(effects
 				(font
